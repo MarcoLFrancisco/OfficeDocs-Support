@@ -23,7 +23,7 @@ appliesto:
   - Excel for the web
   - Outlook for Microsoft 365
   - Outlook for Microsoft 365 for Mac
-  - Outlook on the web
+  - Outlook on the web With Exchange 2019
 search.appverid: 
   - MET150
 ms.date: 3/31/2022
