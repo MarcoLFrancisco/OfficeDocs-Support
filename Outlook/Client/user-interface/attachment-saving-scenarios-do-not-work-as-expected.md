@@ -1,8 +1,8 @@
 ---
 title: Attachment saving not working as expected
 description: Various attachment saving scenarios don't work as expected in Outlook 2016. Provides a workaround.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -13,7 +13,7 @@ ms.custom:
 ms.reviewer: sbradley, gbratton
 appliesto: 
   - Outlook 2016
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
 search.appverid: MET150
 ms.date: 3/31/2022
 ---
@@ -37,7 +37,7 @@ You select **Save All Attachments** for an email message that has multiple attac
 
 ### Scenario 3-  Can't save Share Link style OneDrive attachment to a network file location
 
-Someone sends you a [modern attachment](https://www.microsoft.com/microsoft-365/blog/2015/11/09/attachments-in-outlook-2016-ready-for-collaboration/), which is a link to a file that is stored in a cloud location. You try to save the attachment to a network location, but the save is not successful. If you use the **Save All Attachments** option, you receive a **Cannot find this file. Verify the path and file name are correct** error message. If you use the **Save As** option to save the single attachment, the save is not successful. However, you do not receive an error message.
+Someone sends you a modern attachment, which is a link to a file that is stored in a cloud location. You try to save the attachment to a network location, but the save is not successful. If you use the **Save All Attachments** option, you receive a **Cannot find this file. Verify the path and file name are correct** error message. If you use the **Save As** option to save the single attachment, the save is not successful. However, you do not receive an error message.
 
 ### Scenario 4 - Can't save an attachment to a network drive that has been mapped
 

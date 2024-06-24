@@ -1,8 +1,8 @@
 ---
 title: AD FS sites are slow to open from links in Office applications
 description: Fixes an issue in which hyperlinked AD FS sites are slow to open in Office applications.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -12,11 +12,11 @@ ms.custom:
   - CSSTroubleshoot
 ms.reviewer: bhamv
 appliesto: 
-  - Word for Office 365
+  - Word for Microsoft 365
   - Word 2016
-  - Excel for Office 365
+  - Excel for Microsoft 365
   - Excel 2016
-  - PowerPoint for Office 365
+  - PowerPoint for Microsoft 365
   - PowerPoint 2016
 search.appverid: MET150
 ms.date: 3/31/2022

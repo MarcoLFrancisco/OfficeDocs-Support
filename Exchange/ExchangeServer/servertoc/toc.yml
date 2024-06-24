@@ -1,5 +1,5 @@
 - name: Exchange Server Troubleshooting
-  href: ../exchange-server-welcome.md
+  href: ../exchange-server-welcome.yml
   items:
     - name: Administration
       items:
@@ -271,6 +271,8 @@
           href: ../administration/publicfoldermailboxes-dynamic-distribution-groups.md
         - name: Unhealthy state when monitoring mailboxes are deleted
           href: ../administration/unhealthy-state-monitoring-mailboxes-deleted.md
+        - name: UnifiedContent folder fills up drive
+          href: ../administration/unifiedcontent-folder-fills-up-drive.md
         - name: UPN suffix doesn't show up in EAC or EMS
           href: ../administration/upn-suffix-not-display-eac-ems.md
         - name: Use event ID 2080 to help solve AD  access issues
@@ -419,6 +421,10 @@
           href: ../compliance/mailbox-audit-log-searches-fail-errorinvalidserverversion.md
         - name: Content index state is stuck in crawling
           href: ../compliance/content-index-state-stuck-crawling-exchange-server-2010.md
+        - name: eDiscovery search ignores attached mail items
+          href: ../compliance/ediscovery-search-ignores-attached-mail-items.md
+        - name: eDiscovery search ignores some query keywords
+          href: ../compliance/ediscovery-search-ignores-query-keywords.md
         - name: Error when doing a multi-mailbox search
           href: ../compliance/cannot-perform-multi-mailbox-search.md
         - name: Issues caused by update 2874216/MS13-061
@@ -429,14 +435,20 @@
           href: ../compliance/ediscovery-search-missing-items.md
         - name: MRM doesn't process items in the Sync Issues folder
           href: ../compliance/mrm-not-process-sync-issues-folder.md
+        - name: Reinstall Search Foundation
+          href: ../compliance/reinstall-search-foundation.md
         - name: Search doesn't work if NodeRunner.exe stops
           href: ../compliance/noderunnersexe-stops-search-not-work.md
         - name: Search-AdminAuditLog or Search-MailboxAuditLog returns empty result
           href: ../compliance/search-adminauditlog-mailboxauditlog-return-no-result.md
+        - name: Search-Mailbox cmdlet error
+          href: ../compliance/search-mailbox-cmdlet-fails.md
     - name: Development
       items:
         - name: Develop apps via Exchange Powershell and .NET Framework
           href: ../development/develop-apps-by-using-exchange-powershell.md
+        - name: MAPI applications can't access archive mailboxes
+          href: ../development/mapi-apps-cannot-access-archive-mailboxes.md
         - name: Support limitations for open standards
           href: ../development/public-protocols-support-limitations.md
     - name: Distribution Lists
@@ -459,12 +471,16 @@
           href: /outlook/troubleshoot/user-interface/empty-email-body-esetnod32-4x-installed
         - name: Can't attach large files in OWA
           href: ../mailflow/owa-cannot-attach-large-files.md
+        - name: Can't remove an installed certificate
+          href: ../mailflow/cannot-remove-installed-certificate.md
         - name: Can't send an email with full access
           href: ../mailflow/cannot-send-email-with-full-access.md
         - name: Can't send or receive emails behind a Cisco PIX or ASA firewall
           href: ../mailflow/cannot-send-receive-email-behind-cisco-firewall.md
-        - name: Can't view Office 365 IRM-encrypted messages
+        - name: Can't view Microsoft 365 IRM-encrypted messages
           href: ../mailflow/cannot-open-irm-email-dynamic-distribution-group.md
+        - name: Connector remote IP address limit is exceeded
+          href: ../mailflow/connector-remote-ip-address-limit-exceeded.md
         - name: Delayed mail delivery in Exchange
           href: ../mailflow/mail-delivery-delay-exchange.md
         - name: DNS query failed error when email stuck in Draft
@@ -489,6 +505,8 @@
           href: ../mailflow/cannot-add-attachment-outlook-web.md
         - name: Error when sending S/MIME encrypted mails from OWA
           href: ../mailflow/cannot-send-smime-encrypted-mail-owa.md
+        - name: Event ID 17018 when Microsoft Exchange Transport service stops
+          href: ../mailflow/event-17018-MSExchangeTransport-service-stop.md
         - name: Event ID 7009 when users send or receive emails
           href: ../mailflow/event-7009-send-receive-emails.md
         - name: External or app created emails not delivered
@@ -499,6 +517,8 @@
           href: ../mailflow/uneven-distribution-messages-basicauth-basicauthrequiretls.md
         - name: Outbound email messages aren't sent
           href: ../mailflow/outbound-email-messages-are-not-sent.md
+        - name: Read receipt shows incorrect information
+          href: ../mailflow/read-receipt-shows-incorrect-information.md
         - name: The front-end Microsoft Exchange Transport service stops and doesn't start
           href: ../mailflow/front-end-microsoft-exchange-transport-service-stops.md
         - name: TLS negotiation failed with error NoCredentials error
@@ -527,6 +547,8 @@
           href: ../migration/issue-msexchmasteraccountsid-on-user-account.md
         - name: Mailbox move request isn't showing in EAC
           href: ../migration/eac-not-show-mailbox-move-request.md
+        - name: Mailboxes are stalled during a migration
+          href: ../migration/mailboxes-stalled-during-migration.md
         - name: MapiExceptionPartialCompletion error when moving a mailbox
           href: ../migration/Mapiexceptionpartialcompletion-error-new-moverequest.md
         - name: Migration Workflow doesn't start
@@ -539,10 +561,14 @@
           href: ../migration/public-folders-not-replicate.md
         - name: Error when migrating public folder batch
           href: ../migration/subscription-wasnt-found-for-user-error.md
+        - name: Remote move migration doesn't finalize
+          href: ../migration/remote-move-migration-not-finalize.md
     - name: Public Folders
       items:
         - name: Can't create modern public folders
           href: ../public-folders/cannot-create-modern-public-folders.md
+        - name: Export-ModernPublicFolderStatistics.ps1 script fails
+          href: ../public-folders/export-modernpublicfolderstatistics-script-fails.md
         - name: How to disable conflict message
           href: ../public-folders/disable-conflict-message.md
         - name: No active public folder mailboxes were found
@@ -557,6 +583,8 @@
           href: ../public-folders/public-folder-migration-fails.md
         - name: Public folder permissions for Exchange Server
           href: ../public-folders/public-folder-permissions-for-exchange-server.md
+        - name: Public folder users can't manage subfolders
+          href: ../../ExchangeOnline/public-folders/public-folder-users-cannot-manage-subfolders.md?context=%2fexchange%2ftroubleshoot%2fcontext%2fserver-context
         - name: Troubleshoot public folder replication issues
           href: ../public-folders/troubleshoot-public-folder-replication.md
     - name: Setup
@@ -575,8 +603,12 @@
           href: ../setup/cannot-uninstall-server-role-via-setup-exe.md
         - name: Cumulative Update 20 shown instead of CU22
           href: ../setup/cumulative-update-20-is-shown-not-22.md
+        - name: Error when you try to view messages in Queue Viewer
+          href: ../setup/queue-viewer-error-when-viewing-messages.md
         - name: Event ID 106 Performance counter updating error
           href: ../setup/event-106-msexchange-common.md
+        - name: Event ID 6010 logged after installing CU23
+          href: ../setup/event-id-6010-after-cumulative-update-23.md
         - name: Exchange Server 2019 setup does not run correctly using PowerShell
           href: ../setup/ex2019-setup-does-not-run-correctly-started-powershell.md
         - name: Instal PST Capture tool fails
@@ -591,11 +623,11 @@
           href: ../setup/process-execution-failed-with-exit-code-3.md
         - name: Issues occur if arbitration mailbox isn't upgraded
           href: ../setup/issues-occur-if-arbitration-mailbox-not-upgraded.md
-        - name: Manually update scan engines
-          href: ../setup/manually-update-scan-engines.md
         - name: Run Update cmdlet fails
           href: ../setup/network-path-was-not-found-error.md
         - name: Service Pack upgrade fails
           href: ../setup/service-pack-upgrade-fails.md
         - name: Setup of Mailbox role fails
           href: ../setup/setup-of-mailbox-role-fails-with-error.md
+        - name: Version error in RecoverServer mode install
+          href: ../setup/version-error-in-recover-server-mode-install.md

@@ -1,8 +1,8 @@
 ---
 title: SMTP address in user's profile doesn't change
-description: Describes an Exchange Server 2013 and Exchange Server 2016 issue in which the SMTP address that's displayed in a user's profile fails to change when the user's primary email address is changed. Provides a workaround.
-author: helenclu
-ms.author: luche
+description: Describes an Exchange Server 2013, Exchange Server 2016, or Exchange Online issue in which the SMTP address that's displayed in a user's profile fails to change when the user's primary email address is changed. Provides a workaround.
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -12,6 +12,7 @@ ms.custom:
   - CSSTroubleshoot
 ms.reviewer: robevans
 appliesto: 
+  - Exchange Online
   - Exchange Server 2016 Enterprise Edition
   - Exchange Server 2016 Standard Edition
   - Exchange Server 2013 Enterprise
@@ -25,7 +26,7 @@ _Original KB number:_ &nbsp; 3040795
 
 ## Symptoms
 
-When a user's primary SMTP email address is changed in Microsoft Exchange Server 2013 or Exchange Server 2016, the address that's displayed in the user's profile in Microsoft Outlook does not change.
+When a user's primary SMTP email address is changed in Microsoft Exchange Server 2013, Exchange Server 2016, or Exchange Online, the address that's displayed in the user's profile in Microsoft Outlook does not change.
 
 For example, assume that a user's primary SMTP email address is `alias@domain.com`, as shown in Figure 1:
 
@@ -37,10 +38,10 @@ However, if the user's primary SMTP email address is changed to `alias@subdomain
 
 ## Cause
 
-This issue is by design. The email address that's stamped in the root folder is determined at the time of profile creation and should reflect the primary SMTP address that's stamped on the user. The email address is strictly cosmetic and cannot be changed when the user's primary SMTP email address changes.
+This behavior is by design. The email address that's stamped in the root folder is determined at the time of profile creation and should reflect the primary SMTP address that's stamped on the user. The email address is strictly cosmetic and can't be changed when the user's primary SMTP email address changes.
 
 ## Workaround
 
-To work around this issue, delete and then re-create the profile for the user.
+To work around this behavior, re-create the profile for the user.
 
 Learn how to [Create an Outlook profile](https://support.microsoft.com/office/create-an-outlook-profile-f544c1ba-3352-4b3b-be0b-8d42a540459d) and set up an email account in Outlook.

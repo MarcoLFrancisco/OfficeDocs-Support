@@ -1,8 +1,8 @@
 ---
 title: We can't display your message right now error in Outlook Web App
 description: Describes an issue that occurs when a user tries to read a message that was encrypted by Microsoft Purview Message Encryption. Provides a solution.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -18,8 +18,6 @@ ms.date: 3/31/2022
 # "We can't display your message right now" error in Outlook Web App when an Exchange Online user views an encrypted message
 
 _Original KB number:_&nbsp;2971787
-
-[!include[Purview banner](../../../includes/purview-rebrand.md)]
 
 ## Problem
 

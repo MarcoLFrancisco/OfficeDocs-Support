@@ -1,8 +1,8 @@
 ---
 title: Offline Address Book isn't downloaded
 description: Outlook 2013 and later versions don't support downloading the Offline Address Book from a Microsoft Exchange Server public folder. The Exchange server must be configured to enable Offline Address Book files to be downloaded through web-based distribution.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -14,7 +14,7 @@ ms.custom:
 search.appverid: 
   - MET150
 appliesto: 
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
   - Outlook 2019
   - Outlook 2016
   - Outlook 2013

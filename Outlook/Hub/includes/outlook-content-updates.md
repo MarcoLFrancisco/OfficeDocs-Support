@@ -2,42 +2,39 @@
 
 
 
-## Week of June 27, 2022
+## Week of August 07, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 6/27/2022 | [Unable to delete calendar items](/outlook/troubleshoot/calendaring/cannot-delete-calendar-items) | modified |
+| 8/10/2023 | [Issues in Outlook when you try to configure free/busy information or when you try to delegate information](/outlook/troubleshoot/calendaring/errors-when-configure-free-busy-or-delegate-information) | modified |
+| 8/10/2023 | [Inbox rule in Outlook on the web doesn't appear in Outlook for Windows](/outlook/troubleshoot/email-management/inbox-rule-does-not-appear-in-outlook-client) | added |
 
 
-## Week of June 20, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/22/2022 | [Delete corrupted public folder rules](/outlook/troubleshoot/data-files/delete-corrupted-public-folder-rule) | modified |
-| 6/23/2022 | [How to force Outlook to resolve proxy addresses and custom properties in Cached mode](/outlook/troubleshoot/authentication/how-to-force-outlook-to-resolve-proxy-addresses-and-custom-properties) | modified |
-| 6/23/2022 | [Information about the Calendar Checking Tool for Outlook (CalCheck)](/outlook/troubleshoot/calendaring/calendar-checking-tool-for-outlook) | modified |
-| 6/23/2022 | [Outlook displays an error message on first start](/outlook/troubleshoot/profiles-and-accounts/outlook-displays-error-message-on-first-start) | added |
-| 6/23/2022 | [Outlook displays an error message on first start](/outlook/troubleshoot/profiles-and-accounts/outlook-displays-error-message-on-first-start) | modified |
-
-
-## Week of June 13, 2022
+## Week of July 31, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 6/15/2022 | [Unable to delete calendar items](/outlook/troubleshoot/calendaring/cannot-delete-calendar-items) | added |
-| 6/17/2022 | [Configure rooms and workspaces for Room Finder](/outlook/troubleshoot/calendaring/configure-room-finder-rooms-workspaces) | modified |
-| 6/17/2022 | [Performance issues for too many items or folders](/outlook/troubleshoot/performance/performance-issues-if-too-many-items-or-folders) | modified |
+| 7/31/2023 | [Hyperlinks are not working](/outlook/troubleshoot/message-body/hyperlinks-not-working-in-outlook) | modified |
+| 8/1/2023 | [Invalid file name or Access denied error when adding pst or ost file](/outlook/troubleshoot/data-files/cannot-add-pst-or-ost-file-on-non-local-drive) | modified |
+| 8/1/2023 | [HTTP version of OAB does not download](/outlook/troubleshoot/data-files/http-version-of-offline-address-book-fails-to-download) | modified |
+| 8/1/2023 | [How to manage Outlook Social Connector by using Group Policy](/outlook/troubleshoot/deployment/how-to-manage-outlook-social-connector-via-group-policy) | modified |
+| 8/1/2023 | [CDO 1.2.1 is not supported with Outlook 2010 and later versions](/outlook/troubleshoot/development/collaboration-data-objects-1-2-1-not-supported-in-outlook-2010-and-later) | modified |
 
 
-## Week of June 06, 2022
+## Week of July 17, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 6/6/2022 | [Configure rooms and workspaces for Room Finder](/outlook/troubleshoot/calendaring/configure-room-finder-rooms-workspaces) | added |
-| 6/6/2022 | [Manage download settings for shared mail folders in Cached Exchange mode in Outlook](/outlook/troubleshoot/data-files/by-default-shared-mail-folders-are-downloaded-in-cashed) | modified |
-| 6/7/2022 | [Manage download settings for shared mail folders in Cached Exchange mode in Outlook](/outlook/troubleshoot/data-files/by-default-shared-mail-folders-are-downloaded-in-cashed) | modified |
-| 6/9/2022 | [Microsoft 365 groups don't synchronize in Outlook](/outlook/troubleshoot/synchronization/groups-dont-synchronize) | added |
+| 7/20/2023 | [Access public folders in Outlook for Windows](/outlook/troubleshoot/user-interface/navigate-to-public-folders-in-new-outlook) | modified |
+| 7/20/2023 | [Cannot expose permissions to generate OAuth tokens for Extended MAPI access](/outlook/troubleshoot/authentication/expose-permissions-issue-with-mapi-oauth-tokens) | modified |
+
+
+## Week of July 10, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/11/2023 | [Send updates prompt not displayed](/outlook/troubleshoot/calendaring/send-updates-prompt-not-displayed) | modified |

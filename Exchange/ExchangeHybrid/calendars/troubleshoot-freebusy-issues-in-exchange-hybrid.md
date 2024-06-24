@@ -1,9 +1,9 @@
 ---
 title: Troubleshoot free/busy issues in Exchange hybrid
 description: Resolves free/busy issues in an Exchange hybrid deployment.
-ms.date: 08/19/2020
-author: simonxjx
-ms.author: v-six
+ms.date: 4/19/2023
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: 
+ms.reviewer: v-six
 appliesto: 
   - Microsoft 365
 search.appverid: MET150
@@ -582,7 +582,7 @@ Verify that the Org Relationship settings are configured correctly to enable Fre
 
 #### For online settings
 
-Connect to Exchange Online by using Windows PowerShell. For more information about how to do this, see [Connect Windows PowerShell to the Service](http://help.outlook.com/140/cc952755.aspx).
+[Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
 In Windows PowerShell, run the following command:
 

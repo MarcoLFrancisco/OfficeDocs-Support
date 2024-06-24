@@ -1,8 +1,8 @@
 ---
 title: Dynamic distribution group members don't receive emails
 description: Describes an issue in an Exchange hybrid deployment in which email messages are not delivered to members of a dynamic distribution group. Provides a solution.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: 
+ms.reviewer: v-six
 appliesto: 
   - Exchange Online
   - Exchange Server 2013 Enterprise
@@ -30,7 +30,7 @@ Additionally, if you run a command such as the following to return a list of rec
 
 ```console
 $list = Get-DynamicDistributionGroup sales@contoso.com  
-Get-Recipient -RecipientPreviewFilter $list.RecipientFilter
+Get-Recipient -RecipientPreviewFilter $list.RecipientFilter -OrganizationalUnit $list.RecipientContainer
 ```
 
 ## Cause
@@ -50,6 +50,6 @@ Set-DynamicDistributionGroup -Identity sales@contoso.com -RecipientFilter {(Reci
 
 ## More information
 
-For more information, see [Set-DynamicDistributionGroup](/powershell/module/exchange/set-dynamicdistributiongroup).
+For more information, see [Get-DynamicDistributionGroup](/powershell/module/exchange/get-dynamicdistributiongroup) and [Set-DynamicDistributionGroup](/powershell/module/exchange/set-dynamicdistributiongroup).
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com/) or the [Exchange TechNet Forums](/answers/topics/office-exchange-server-itpro.html).

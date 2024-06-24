@@ -1,8 +1,8 @@
 ---
 title: HCW8034 or HCW8057 when running Hybrid Configuration wizard
 description: Describes an issue that triggers an HCW8034 or HCW8057 error when you run the Hybrid Configuration wizard. Provides a resolution.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: timothyh
+ms.reviewer: timothyh, v-six
 appliesto: 
   - Exchange Online
   - Exchange Server 2013 Enterprise
@@ -49,7 +49,7 @@ To troubleshoot preauthentication issues on a perimeter device, see [Configure F
 
 ### Firewall is blocking required IP addresses from accessing on-premises servers
 
-Review the IP address and URL requirements for Office 365 at [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
+Review the IP address and URL requirements for Microsoft 365 at [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
 
 ### You have an internal DNS domain that's configured to block forwarding
 

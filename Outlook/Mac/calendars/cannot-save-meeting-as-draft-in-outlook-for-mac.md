@@ -1,8 +1,8 @@
 ---
 title: Cannot save meeting as draft in Outlook for Mac
 description: This article provides a workaround for saving a meeting as a draft in the Outlook for Mac using Office JS API.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -14,7 +14,7 @@ ms.custom:
 ms.reviewer: elizs
 appliesto: 
   - Outlook 2019 for Mac
-  - Outlook for Mac for Office 365
+  - Outlook for Microsoft 365 for Mac
   - Outlook 2016 for Mac
 search.appverid: MET150
 ms.date: 3/31/2022

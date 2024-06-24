@@ -10,12 +10,12 @@ appliesto:
 - Outlook 2013
 - Outlook 2016 
 - Outlook 2019 
-- Outlook for Office 365 
+- Outlook for Microsoft 365 
 - Microsoft Outlook 2010
 search.appverid: MET150
-ms.reviewer: randyto
-author: simonxjx
-ms.author: v-six
+ms.reviewer: randyto, v-six
+author: cloud-writer
+ms.author: meerak
 ms.date: 3/31/2022
 ---
 # Additional time zone shows a one-hour offset on DST start day in Outlook

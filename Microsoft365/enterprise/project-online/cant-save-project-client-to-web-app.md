@@ -1,7 +1,7 @@
 ---
 title: Cannot saving a project from Project client to Project Web App
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 localization_priority: Normal
 audience: ITPro
@@ -13,7 +13,7 @@ description: Unable to save a project from a Project client to PWA with the erro
 appliesto: 
   - Project Online
   - Project Professional 2016
-  - Project Pro for Office 365
+  - Project Pro for Microsoft 365
 ms.date: 3/31/2022
 ---
 

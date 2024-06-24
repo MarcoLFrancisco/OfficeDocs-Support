@@ -1,8 +1,8 @@
 ---
 title: Error when you try to enable or disable an archive mailbox for an Exchange Online user or move a mailbox to an on-premises environment
 description: Describes that you receive an error message when you try to enable or disable an archive mailbox for an existing Exchange Online user or move a mailbox from Exchange Online to an on-premises environment.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -21,8 +21,6 @@ ms.date: 3/31/2022
 
 _Original KB number:_&nbsp;3050691
 
-[!include[Purview banner](../../../includes/purview-rebrand.md)]
-
 ## Problem
 
 When you try to enable or disable an archive mailbox for an existing Exchange Online user, or when you try to move a mailbox from Exchange Online to an on-premises environment, you receive an error message that resembles one of the following:
@@ -33,13 +31,13 @@ When you try to enable or disable an archive mailbox for an existing Exchange On
 >
 > Mailbox '\<User Display Name>' has move status \<move status>. You can't enable or disable an archive while the mailbox is being moved.
 
-When you run the `Get-MoveRequest | fl` command to examine the move request, you verify that the request is an Office 365 datacenter move request. This is indicated by the IntraOrg flag.
+When you run the `Get-MoveRequest | fl` command to examine the move request, you verify that the request is a Microsoft 365 datacenter move request. This is indicated by the IntraOrg flag.
 
 ## Cause
 
 This problem occurs because failed move requests are not yet removed from the system.
 
-To maintain service health, Exchange Online regularly moves mailboxes between different servers. Completed Office 365 datacenter move requests are cleaned up very quickly. Failed Office 365 datacenter move requests may remain somewhat longer but are still cleaned up after some time. These failed move requests do not affect users. The service will retry the move in the future, if it's required.
+To maintain service health, Exchange Online regularly moves mailboxes between different servers. Completed Microsoft 365 datacenter move requests are cleaned up very quickly. Failed Microsoft 365 datacenter move requests may remain somewhat longer but are still cleaned up after some time. These failed move requests do not affect users. The service will retry the move in the future, if it's required.
 
 ## Solution
 

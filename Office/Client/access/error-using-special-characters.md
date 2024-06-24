@@ -1,8 +1,8 @@
 ---
 title: Errors using special characters in Access databases
 description: Lists the special characters to avoid using when you work with the database object names or the field names in all versions of Access.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -12,7 +12,7 @@ ms.custom:
   - CSSTroubleshoot
 ms.reviewer: 
 appliesto: 
-  - Access for Office 365
+  - Access for Microsoft 365
   - Access 2019
   - Access 2016
   - Access 2013

@@ -1,8 +1,8 @@
 ---
 title: Outlook crashes when you call GetProps
 description: "Describes a problem in which Outlook crashes when you call IMAPIProp::GetProps on a stale MAPI object."
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -15,7 +15,7 @@ appliesto:
   - Outlook 2016
   - Outlook 2013
   - Microsoft Outlook 2010
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
   - Outlook 2019
 search.appverid: MET150
 ms.date: 3/31/2022

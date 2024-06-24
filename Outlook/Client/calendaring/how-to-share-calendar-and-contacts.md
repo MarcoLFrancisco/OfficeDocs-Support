@@ -2,8 +2,8 @@
 title: Share calendar and contacts in Microsoft 365
 description: Learn how to share calendar and contacts in Microsoft 365.
 ms.date: 08/13/2020
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -564,7 +564,7 @@ If you receive sharing policy errors when you try to send calendar or contact fo
 Select the role you are in your organization to continue.
 
 - [End User](#share-calendar-outside-the-organization-using-microsoft-outlook-end-user)
-- [Office 365 administrator](#change-the-default-sharing-policy-in-microsoft-365)
+- [Microsoft 365 administrator](#change-the-default-sharing-policy-in-microsoft-365)
 
 ### Share calendar outside the organization using Microsoft Outlook (End user)
 

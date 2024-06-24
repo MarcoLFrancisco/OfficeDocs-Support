@@ -1,8 +1,8 @@
 ---
 title: Database's user-defined function isn't displayed
 description: Provides a workaround for an issue in which the Expression Builder doesn't display a database's user-defined functions in the Functions node of Expression Elements.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -12,7 +12,7 @@ ms.custom:
   - CSSTroubleshoot
 ms.reviewer: wouterst, tputt, jenl
 appliesto: 
-  - Access for Office 365
+  - Access for Microsoft 365
   - Access 2019
   - Access 2016
   - Access 2013

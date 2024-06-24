@@ -2,50 +2,28 @@
 
 
 
-## Week of June 27, 2022
+## Week of August 07, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 6/28/2022 | [ADSTS50011 error when running HCW](/exchange/troubleshoot/hybrid-configuration-wizard-errors/error-hybrid-config-wizard) | modified |
-| 6/28/2022 | ATP notifications displayed in foreign languages | removed |
-| 6/28/2022 | Domains on Outlook Safe Senders list not recognized | removed |
-| 6/28/2022 | Reduce malware threats via file attachment blocking | removed |
-| 6/28/2022 | User Impersonation messages are classified as phishing but not as user impersonation | removed |
-| 7/1/2022 | [RopFastTransferSourceCopyTo operation fails on messages](/exchange/troubleshoot/client-connectivity/ropfasttransfersourcecopyto-operation-fails) | modified |
+| 8/10/2023 | [Favorites folders are missing in the Outlook client after migration to Exchange Online](/exchange/troubleshoot/move-or-migrate-mailboxes/favorites-folders-missing-after-migration) | added |
 
 
-## Week of June 20, 2022
+## Week of July 31, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 6/20/2022 | [Room mailbox can't automatically accept or decline meeting requests](/exchange/troubleshoot/calendars/meeting-requests-routed-through-third-party-service-not-auto-processed) | modified |
-| 6/22/2022 | [RopFastTransferSourceCopyTo operation fails on messages](/exchange/troubleshoot/client-connectivity/ropfasttransfersourcecopyto-operation-fails) | added |
+| 8/1/2023 | [Windows Mail app not blocked despite ActiveSync organization settings](/exchange/troubleshoot/administration/windows-mail-app-not-blocked) | modified |
+| 8/1/2023 | [OWA or ECP stops working after you install a security update](/exchange/troubleshoot/client-connectivity/owa-stops-working-after-update) | modified |
+| 8/1/2023 | [Email non-delivery report (NDR) and SMTP errors in Exchange Online](/exchange/troubleshoot/email-delivery/ndr/non-delivery-reports-in-exchange-online) | modified |
+| 8/1/2023 | [Troubleshoot public folder replication](/exchange/troubleshoot/public-folders/troubleshoot-public-folder-replication) | modified |
 
 
-## Week of June 13, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/17/2022 | [Recoverable Items folder not emptied for mailbox on litigation or retention hold](/exchange/troubleshoot/antispam-and-protection/recoverable-items-folder-full) | modified |
-| 6/17/2022 | [Can't migrate Google Workspace mailboxes to Microsoft 365](/exchange/troubleshoot/move-or-migrate-mailboxes/google-workspace-mailbox-migration-fail) | modified |
-
-
-## Week of June 06, 2022
+## Week of July 10, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 6/7/2022 | [Room mailbox can't automatically accept or decline meeting requests](/exchange/troubleshoot/calendars/meeting-requests-routed-through-third-party-service-not-auto-processed) | added |
-| 6/7/2022 | [Common tasks to manage Microsoft 365 groups](/exchange/troubleshoot/groups-and-distribution-lists/o365-group-tasks) | modified |
-| 6/9/2022 | [Search-AdminAuditLog and Search-MailboxAuditLog with parameter return empty results](/exchange/troubleshoot/compliance/search-adminauditlog-mailboxauditlog-return-no-result) | modified |
-
-
-## Week of May 30, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/31/2022 | [Room Finder doesn't display any conference rooms when a user creates a meeting](/exchange/troubleshoot/calendars/conference-rooms-not-displayed) | modified |
+| 7/11/2023 | [Messages sent from a shared mailbox aren't saved to the Sent Items folder](/exchange/troubleshoot/user-and-shared-mailboxes/sent-mail-is-not-saved) | modified |

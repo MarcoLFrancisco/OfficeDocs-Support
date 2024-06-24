@@ -1,9 +1,9 @@
 ---
 title: Exclude or remove sites from a SharePoint Online retention policy
 description: Describes how to exclude or remove sites from your SharePoint Online retention policy.
-author: v-matthamer
+author: helenclu
 ms.reviewer: PramodBalusu
-ms.author: v-matthamer
+ms.author: luche
 manager: dcscontentpm
 localization_priority: Normal
 ms.date: 05/19/2021
@@ -32,9 +32,9 @@ If the retention policy applies to all sites, you can exclude a site from the re
 
 ## Edit the retention policy
 
-1. Go to the Security admin center at https://protection.office.com.
+1. Go to the [Microsoft Purview compliance portal](https://go.microsoft.com/fwlink/p/?linkid=2077149). 
 
-1. In the left pane, find **Information Governance**, and then select **Retention**. You will be shown all the retention policies that are configured in your tenant.  
+1. Select **Data lifecycle management** > **Microsoft 365** > **Retention Policies**. You'll be shown all the retention policies that are configured in your tenant.  
 
 1. Select the policy that you want to edit, and then select **Edit Policy**.
 

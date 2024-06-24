@@ -2,12 +2,18 @@
 
 
 
-## Week of June 20, 2022
+## Week of July 10, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 6/23/2022 | [Issues with shared computer activation for Microsoft 365 Apps](/office/troubleshoot/activation/shared-computer-activation) | modified |
-| 6/23/2022 | [Progress bars not drawn for tasks that are in progress](/office/troubleshoot/project/progress-bars-not-drawn-for-tasks) | modified |
-| 6/23/2022 | [How to upgrade your Project global template after you install Project 2013](/office/troubleshoot/project/upgrade-project-global-template) | modified |
-| 6/24/2022 | [Network Mapped Drive Hyperlinks resolve as UNC in Office Products](/office/troubleshoot/excel/network-mapped-drive-hyperlinks-unc) | modified |
+| 7/10/2023 | [The digital signature in Access is tampered with or invalidated](/office/troubleshoot/access/access-database-digital-signature-invalidated) | added |
+
+
+## Week of June 26, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/29/2023 | [Reset the page number on a group level in a report](/office/troubleshoot/access/reset-page-number-on-a-group-level) | modified |
+| 6/29/2023 | [Use Support and Recovery Assistant to collect data about Microsoft 365 Apps installations](/office/troubleshoot/installation/use-sara-to-collect-install-info) | modified |

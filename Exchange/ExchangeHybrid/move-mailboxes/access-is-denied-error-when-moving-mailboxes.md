@@ -1,8 +1,8 @@
 ---
 title: Access is denied error when moving mailboxes
 description: Describes an issue that triggers an Access is denied error when trying to move mailboxes to Exchange Online in a hybrid deployment.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: hbohl, charw
+ms.reviewer: hbohl, charw, v-six
 appliesto: 
   - Exchange Online
 search.appverid: MET150
@@ -97,6 +97,6 @@ CN=adminSDHolder,CN=System,DC=\<Domain>,DC=\<Com>
 
 If the ACLs differ, the ACL on the user object is overwritten to reflect the security settings of the `adminSDHolder` object (and ACL inheritance is disabled). This process protects these accounts from being modified by unauthorized users if the accounts are moved to a container or an organizational unit where a malicious user has been delegated administrative credentials to modify user accounts. Be aware that when a user is removed from the administrative group, the process is not reversed and must be changed manually.
 
-If you experience issues when you move mailboxes to Exchange Online in Office 365, you can run the Troubleshoot Office 365 Mailbox Migration tool. This diagnostic is an automated troubleshooting tool. If you're experiencing a known issue, you receive a message that states what went wrong. The message includes a link to an article that contains the solution. Currently, the tool is supported only in Internet Explorer.
+If you experience issues when you move mailboxes to Exchange Online in Microsoft 365, you can run the Troubleshoot Microsoft 365 Mailbox Migration tool. This diagnostic is an automated troubleshooting tool. If you're experiencing a known issue, you receive a message that states what went wrong. The message includes a link to an article that contains the solution. Currently, the tool is supported only in Internet Explorer.
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com/) or the [Microsoft Q&A](/answers/products/?WT.mc_id=msdnredirect-web-msdn).

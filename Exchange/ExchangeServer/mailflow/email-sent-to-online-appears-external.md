@@ -1,8 +1,8 @@
 ---
 title: Emails sent to Exchange Online appear external
 description: After you run the Hybrid Configuration Wizard against Exchange Server 2013 or 2016, emails sent from on-premises to Exchange Online appears to be external.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -18,6 +18,7 @@ appliesto:
   - Exchange Server 2016 Standard Edition
   - Exchange Server 2016 Enterprise Edition
 ms.date: 3/31/2022
+ms.reviewer: v-six
 ---
 # Emails sent from on-premises to Exchange Online appears to be external after running HCW
 
@@ -37,7 +38,7 @@ In this scenario, you notice the following issues on the receiver side:
 
 Additional symptoms when the issue occurs:
 
-- There is an *Outbound to Office 365* **TLSCertificateName** attribute on the Send connector that sends messages to Office 365. When the issue occurs, the attribute value isn't replicated to the Edge servers.
+- There is an *Outbound to Office 365* **TLSCertificateName** attribute on the Send connector that sends messages to Microsoft 365. When the issue occurs, the attribute value isn't replicated to the Edge servers.
 
 - When you run the `start-edgesynchronization` command from the mailbox server, the output shows the **Configuration** type as **Incomplete**. The following is a sample excerpt:
 
@@ -71,7 +72,7 @@ This issue occurs for the following reasons:
     To determine the length of the string, run the following command:
 
     ```powershell
-    ("<I>$((Get-SendConnector 'outbound to office 365').tlscertificatename.certificateissuer)<S>$((Get-SendConnector 'outbound to office 365').tlscertificatename.certificatesubject)").length
+    ("<I>$((Get-SendConnector 'outbound to Office 365').tlscertificatename.certificateissuer)<S>$((Get-SendConnector 'outbound to Office 365').tlscertificatename.certificatesubject)").length
     ```
 
 To resolve this issue, use one of the following methods.
@@ -120,7 +121,7 @@ To configure the Send connector to use the FQDN, follow these steps:
 1. Set the Send connector to use the FQDN by running the following command. This command also clears the **TLSCertificateName** attribute.
 
     ```powershell
-    Set-SendConnector "outbound to office 365" -Fqdn "Domain Note in step 1 of option 2" -TlsCertificateName:$null
+    Set-SendConnector "outbound to Office 365" -Fqdn "Domain Note in step 1 of option 2" -TlsCertificateName:$null
     ```
 
 1. On the HUB Transport or Mailbox servers, run the following command to sync the changes to the Edge server:

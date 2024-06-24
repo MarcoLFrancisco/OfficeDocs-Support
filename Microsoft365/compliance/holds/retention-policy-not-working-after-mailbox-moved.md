@@ -1,8 +1,8 @@
 ---
 title: Retention policy no longer works after mailbox moved
 description: Describes a scenario where the retention policy doesn't work after you move a mailbox from the on-premises environment to Exchange Online in a hybrid deployment. Provides a solution.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -22,8 +22,6 @@ ms.date: 3/31/2022
 # Retention policy no longer works after a mailbox is moved from the on-premises environment to Exchange Online
 
 _Original KB number:_ &nbsp; 3194755
-
-[!include[Purview banner](../../../includes/purview-rebrand.md)]
 
 ## Symptoms
 

@@ -1,8 +1,8 @@
 ---
 title: Can't install Calendar Printing Assistant
 description: Works around an issue in which you cannot install the Calendar Printing Assistant for Outlook when you have Outlook 2013 and later versions installed.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -13,7 +13,7 @@ ms.custom:
 search.appverid: 
   - MET150
 appliesto: 
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
   - Outlook 2019
   - Outlook 2016
   - Outlook 2013

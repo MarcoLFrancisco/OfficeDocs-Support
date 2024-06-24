@@ -1,8 +1,8 @@
 ---
 title: Can't move a meeting between calendars
 description: When you try to drag a meeting from one calendar to another in Outlook for Mac, there's no Move or Copy option available.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -13,7 +13,7 @@ ms.custom:
 ms.reviewer: tasitae
 appliesto: 
   - Outlook 2016 for Mac
-  - Outlook for Mac for Office 365
+  - Outlook for Microsoft 365 for Mac
 search.appverid: MET150
 ms.date: 3/31/2022
 ---

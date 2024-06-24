@@ -1,8 +1,8 @@
 ---
 title: Sending Mailbox Server isn't running Exchange 2013 or a later version
 description: Provides a workaround for an issue that triggers an error when you run the Hybrid Configuration Wizard to upgrade your hybrid deployment configuration from Exchange 2010 to Exchange 2013.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: timothyh
+ms.reviewer: timothyh, v-six
 appliesto: 
   - Exchange Online
 search.appverid: MET150
@@ -21,7 +21,7 @@ ms.date: 3/31/2022
 _Original KB number:_ &nbsp; 3013420
 
 > [!NOTE]
-> The Hybrid Configuration wizard (HCW) that's included in the Exchange Management Console in Microsoft Exchange Server 2010 is no longer supported. Therefore, you should no longer use the old Hybrid Configuration wizard. Instead, use the [Office 365 Hybrid Configuration wizard](https://aka.ms/hybridwizard). For more information, see [Office 365 Hybrid Configuration wizard for Exchange 2010](https://techcommunity.microsoft.com/t5/exchange-team-blog/office-365-hybrid-configuration-wizard-for-exchange-2010/ba-p/604541).
+> The Hybrid Configuration wizard (HCW) that's included in the Exchange Management Console in Microsoft Exchange Server 2010 is no longer supported. Therefore, you should no longer use the old Hybrid Configuration wizard. Instead, use the [Microsoft 365 Hybrid Configuration wizard](https://aka.ms/hybridwizard). For more information, see [Microsoft 365 Hybrid Configuration wizard for Exchange 2010](https://techcommunity.microsoft.com/t5/exchange-team-blog/office-365-hybrid-configuration-wizard-for-exchange-2010/ba-p/604541).
 
 ## Problem
 

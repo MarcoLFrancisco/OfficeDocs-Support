@@ -1,8 +1,8 @@
 ---
 title: Delegate gets multiple or duplicate meeting requests
 description: Provides a resolution for the issue that a delegate receives multiple or duplicate meeting requests in their Inbox.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -17,7 +17,7 @@ appliesto:
   - Outlook 2013
   - Outlook 2016 for Mac
   - Microsoft Outlook 2010
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
 search.appverid: MET150
 ms.date: 3/31/2022
 ---

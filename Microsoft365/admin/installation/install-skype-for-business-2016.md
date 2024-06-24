@@ -1,7 +1,7 @@
 ---
 title: Install of Skype for Business 2016 installs Microsoft 365 Apps for enterprise
-description: Explains that when you install Skype for Business 2016 from the Office 365 portal, all the Microsoft 365 Apps for enterprise applications are installed, not just Skype. A workaround is provided.
-author: MaryQiu1987
+description: Explains that when you install Skype for Business 2016 from the Microsoft 365 portal, all the Microsoft 365 Apps for enterprise applications are installed, not just Skype. A workaround is provided.
+author: helenclu
 manager: dcscontentpm
 localization_priority: Normal
 search.appverid: 
@@ -9,21 +9,21 @@ search.appverid:
 audience: ITPro
 ms.custom: CSSTroubleshoot
 ms.topic: troubleshooting
-ms.author: v-maqiu
+ms.author: luche
 appliesto: 
   - Microsoft 365 Apps for enterprise
   - Skype for Business 2016
 ms.date: 3/31/2022
 ---
 
-# Install of Skype for Business 2016 from the Office 365 portal installs all the Microsoft 365 Apps for enterprise applications
+# Install of Skype for Business 2016 from the Microsoft 365 portal installs all the Microsoft 365 Apps for enterprise applications
 
 ## Problem
 
-You have a Microsoft Microsoft 365 Apps for enterprise or Office 365 E3 subscription. In the Office 365 portal, you click **Install** for Skype for Business 2016 on the **Skype for Business** tab of the **MySoftware** page. After you activate the installation, you notice that all the Microsoft 365 Apps for enterprise applications are installed, instead of just Skype for Business 2016.
+You have a Microsoft 365 Apps for enterprise or Office 365 E3 subscription. In the Microsoft 365 portal, you click **Install** for Skype for Business 2016 on the **Skype for Business** tab of the **MySoftware** page. After you activate the installation, you notice that all the Microsoft 365 Apps for enterprise applications are installed, instead of just Skype for Business 2016.
 
 > [!NOTE]
-> This doesn't occur for Office 365 Business Premium subscription users.
+> This doesn't occur for Microsoft 365 Business Standard subscription users.
 
 ## Workaround
 

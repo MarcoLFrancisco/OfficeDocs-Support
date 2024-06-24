@@ -1,8 +1,8 @@
 ---
 title: Limits to using pst files over LAN and WAN links
 description: Explains why personal folders files (which store messages locally) are typically unsupported over a LAN or WAN link. To resolve this issue, you can use Exchange Server with local Offline Folders file or Terminal Services instead. An exception in which Outlook 2010 is hosted remotely on a Windows Server 2008 R2 RDSH is included.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -15,7 +15,7 @@ ms.reviewer: aruiz, cherryc, gbratton, gregmans, sercast
 search.appverid: 
   - MET150
 appliesto: 
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
   - Outlook 2019
   - Outlook 2016
   - Outlook 2013
@@ -40,7 +40,7 @@ The .pst files aren't meant to be a long-term, continuous-use method of storing 
 
 This article also suggests three alternatives to .pst files:
 
-- Use Office 365 Exchange Online, Microsoft Exchange Server 2013, or Microsoft Exchange Server 2010 Personal Archive mailboxes.
+- Use Microsoft 365 Exchange Online, Microsoft Exchange Server 2013, or Microsoft Exchange Server 2010 Personal Archive mailboxes.
 - Configure Microsoft Outlook in Cached Exchange Mode. This caches Exchange Server mailbox data in a local Offline Folders file.
 - Configure Outlook to run on Windows Terminal Services and to connect to the Exchange Server mailbox in Online mode.
 

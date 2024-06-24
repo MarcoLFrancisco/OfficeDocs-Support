@@ -1,8 +1,8 @@
 ---
 title: Items placed in root folder seem to be lost
 description: Provides a resolution to show the items that's placed in root folder.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -17,7 +17,7 @@ appliesto:
   - Outlook 2013
   - Microsoft Outlook 2010
   - Microsoft Office Outlook 2007
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
 search.appverid: MET150
 ms.date: 3/31/2022
 ---

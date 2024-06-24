@@ -1,8 +1,8 @@
 ---
 title: Spam Confidence Level (SCL) -1 not working
 description: Discusses an issue in which Outlook unexpectedly marks messages as junk if the Exchange Server connection becomes disconnected. Provides a workaround.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -80,7 +80,7 @@ To work around this problem, try to enable RPC encryption between Outlook and Ex
     :::image type="content" source="media/outlook-moves-messages-to-the-junk-mail-folder-unexpectedly/encrypt-data-between-microsoft-outlook-and-microsoft-exchange.png" alt-text="Screenshot of the Security tab of the Microsoft Exchange dialog box." border="false":::
 
     > [!IMPORTANT]
-    > If the check box is unavailable (dimmed), you are most likely connected to Microsoft Exchange Server 2013, or you are using a mailbox in Office 365. In this case, RPC encryption cannot be enabled. Be aware that Outlook Anywhere (RPC over HTTPS) connections are secure as they are encrypted by using Secure HTTP (HTTPS).
+    > If the check box is unavailable (dimmed), you are most likely connected to Microsoft Exchange Server 2013, or you are using a mailbox in Microsoft 365. In this case, RPC encryption cannot be enabled. Be aware that Outlook Anywhere (RPC over HTTPS) connections are secure as they are encrypted by using Secure HTTP (HTTPS).
 
 9. Select **Next**, and then select **Finish**.
 10. Select **Close**, and then select **OK**.

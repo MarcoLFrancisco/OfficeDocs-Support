@@ -1,8 +1,8 @@
 ---
 title: Error occurs when opening room calendar
 description: Describes an error that users in an Exchange hybrid deployment experience when they try to view a calendar for a room mailbox in Outlook. Provides a solution.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: meshel
+ms.reviewer: meshel, v-six
 appliesto: 
   - Exchange Online
   - Exchange Server 2016 Enterprise Edition
@@ -36,11 +36,11 @@ When users in an Exchange hybrid deployment try to open the calendar for a room 
 
 ## Cause
 
-This problem occurs if the room mailbox was created by using the Exchange admin center in Office 365 or Exchange Online PowerShell, and if the room mailbox doesn't have an associated Active Directory account in the on-premises environment.
+This problem occurs if the room mailbox was created by using the Exchange admin center in Microsoft 365 or Exchange Online PowerShell, and if the room mailbox doesn't have an associated Active Directory account in the on-premises environment.
 
 ## Resolution
 
-To resolve this problem, use SMTP matching to link the room mailbox in Exchange Online with an on-premises account. For more information about how to do this, see [How to use SMTP matching to match on-premises user accounts to Office 365 user accounts for directory synchronization](https://support.microsoft.com/help/2641663).
+To resolve this problem, use SMTP matching to link the room mailbox in Exchange Online with an on-premises account. For more information about how to do this, see [How to use SMTP matching to match on-premises user accounts to Microsoft 365 user accounts for directory synchronization](https://support.microsoft.com/help/2641663).
 
 ## More information
 

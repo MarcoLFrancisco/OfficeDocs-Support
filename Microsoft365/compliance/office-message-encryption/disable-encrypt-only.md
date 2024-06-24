@@ -1,8 +1,8 @@
 ---
 title: Disabling the Encrypt-Only feature in Outlook
 description: Describes how to update the DRM registry key to disable Encrypt-Only on the Encrypt list without also disabling Message Classification.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -20,11 +20,9 @@ ms.date: 3/31/2022
 
 _Original KB number:_&nbsp;4493792
 
-[!include[Purview banner](../../../includes/purview-rebrand.md)]
-
 ## Summary
 
-In Microsoft Outlook for Office 365, when the Microsoft Purview Message Encryption feature is enabled, **Encrypt-Only**  is added as a new ad-hoc template. **Encrypt-Only**  enables message encryption without rights restrictions. This article describes how to disable the **Encrypt-Only** option in Outlook.
+In Microsoft Outlook for Microsoft 365, when you enable Microsoft Purview Message Encryption, **Encrypt-Only**  is added as a new ad-hoc template. **Encrypt-Only**  enables message encryption without rights restrictions. This article describes how to disable the **Encrypt-Only** option in Outlook.
 
 For more information about the feature, see [Encrypt-Only option for emails](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails).
 

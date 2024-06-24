@@ -1,8 +1,9 @@
 ---
 title: Mail contacts lose access to encrypted content
 description: A known issue in groups causes mail contacts to lose access or have intermittent access to encrypted content.
-author: MaryQiu1987
-ms.author: v-maqiu
+ms.date: 05/05/2022
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -17,8 +18,6 @@ search.appverid: MET150
 ---
 
 # Mail contacts in groups have intermittent access to encrypted content
-
-[!include[Purview banner](../../../includes/purview-rebrand.md)]
 
 ## Symptoms
 

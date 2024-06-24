@@ -1,8 +1,8 @@
 ---
 title: Emails remain in Outbox for at least one minute
 description: This article provides a solution to an issue where email messages remain in the Outbox folder for at least one minute before it's sent.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -14,7 +14,7 @@ ms.custom:
 search.appverid: 
   - MET150
 appliesto: 
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
   - Outlook 2019
   - Outlook 2016
   - Outlook 2013

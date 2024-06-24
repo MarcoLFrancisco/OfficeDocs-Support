@@ -1,9 +1,9 @@
-- name: Office 365 Administration Troubleshooting
-  href: ../o365-admin-welcome.md
+- name: Microsoft 365 Administration Troubleshooting
+  href: ../o365-admin-welcome.yml
   items:
   - name: Access Management
     items:
-    - name: Adding guest users in the M365 admin center
+    - name: Adding guest users in the admin center
       href: ../access-management/cannot-add-guest-users-in-m365-admin-center.md
     - name: '"Application configuration incomplete" error'
       href: ../access-management/error-run-office-365-desktop-setup-tool.md
@@ -27,8 +27,6 @@
       href: ../access-management/set-language-and-region.md
     - name: This feature has been disabled by your administrator
       href: ../access-management/office-feature-disabled.md
-    - name: Turn off File Transfer
-      href: ../access-management/control-file-transfer.md
     - name: User name or password is incorrect
       href: ../access-management/connect-msolservice-office-365-azure.md
     - name: Users properties revert to original values
@@ -65,7 +63,7 @@
       href: ../active-directory/idfix-not-display-objects-errors.md
     - name: Errors when using Azure AD Graph API applications
       href: ../active-directory/errors-using-azure-ad-custom-apps.md
-    - name: Exception Error when you run Directory Sync Configuration Wizard
+    - name: Exception Error when you run Directory Sync Configuration wizard
       href: ../active-directory/exception-with-azure-ad-sync.md
     - name: How to restore deleted user accounts
       href: ../active-directory/restore-deleted-user-accounts.md
@@ -73,11 +71,11 @@
       href: ../active-directory/duplicate-attributes-prevent-dirsync.md
     - name: Pending state issue with directory synchronization
       href: ../active-directory/pending-state-issue-with-directory-synchronization.md
-    - name: Set up AD FS for Office 365 for Single Sign-On
+    - name: Set up AD FS for Microsoft 365 for single sign-on
       href: ../active-directory/set-up-adfs-for-single-sign-on.md
     - name: Set up single sign-on
       href: ../active-directory/set-up-single-sign-on.md
-    - name: Signing in to Office 365 fails
+    - name: Signing in to Microsoft 365 fails
       href: ../active-directory/sign-in-fails-if-federation-endpoint-changes.md
     - name: Support for migrations from AD RMS to Azure RMS
       href: ../active-directory/migration-from-ad-rms-to-azure-rms.md
@@ -93,7 +91,7 @@
     items:
     - name: 80041317 or 80043431 during sign-in
       href: ../authentication/office-365-sign-in-error-80041317-80043431.md
-    - name: 8004789A when signing in to Office 365
+    - name: 8004789A when signing in to Microsoft 365
       href: ../authentication/federated-user-sign-in-to-office-365.md
     - name: 80048163 when federated user tries to sign in
       href: ../authentication/federated-user-fails-signing-in.md
@@ -101,11 +99,13 @@
       href: ../authentication/office-365-user-with-name-already-exists.md
     - name: Authentication automatically fails
       href: ../authentication/automatic-authentication-fails.md
+    - name: Can't sign in to Microsoft 365 desktop applications
+      href: ../authentication/cannot-sign-in-microsoft-365-desktop-apps.md  
     - name: Certificate-based authentication fails on iOS
       href: ../authentication/certificate-based-authentication-fails-on-ios.md
     - name: Certificate warning from AD FS
       href: ../authentication/certificate-warning-from-ad-fs.md
-    - name: Connection issues when sign in Office 2016
+    - name: Connection issues when signing in Office 2016
       href: ../authentication/connection-issue-when-sign-in-office-2016.md
     - name: Deleted app passwords still work
       href: ../authentication/deleted-authentication-passwords-still-work.md
@@ -120,10 +120,10 @@
     - name: Issue with adding Address or CNAME record
       href: ../authentication/error-add-address-cname-record.md
     - name: Repeatedly prompted for credentials
-      href: ../authentication/access-denied-when-connect-to-office-365.md
+      href: ../authentication/access-denied-when-connect-to-office-365.md    
   - name: Diagnostic Logs
     items:
-    - name: Collect a Network Monitor trace in Office 365
+    - name: Collect a Network Monitor trace in Microsoft 365
       href: ../diagnostic-logs/collect-network-monitor-trace.md
     - name: Diagnostic log collection in Support and Recovery Assistant
       href: ../diagnostic-logs/diagnostic-log-collection-in-support-and-recovery-assistant.md
@@ -135,6 +135,8 @@
       href: ../diagnostic-logs/office-sign-in-and-auth-diagnostic.md
     - name: Use Fiddler trace logs for MFA
       href: ../diagnostic-logs/fiddler-trace-logs-for-mfa.md
+    - name: Use MSOAID for authentication issues
+      href: ../diagnostic-logs/use-msoaid-for-authentication-issues.md
   - name: Domain Management
     items:
     - name: '"Add domain" option is missing'
@@ -145,23 +147,23 @@
       href: ../administration/remove-domain-link-unavailable.md
     - name: A user with this name could not be found
       href: ../administration/user-found-error-fails-resetting-password.md
-    - name: Application cannot be started
+    - name: Application can't be started
       href: ../administration/office-365-application-cannot-be-started.md
     - name: Can't add a domain
       href: ../administration/administrator-failed-adding-domain.md
     - name: Can't assign a federated domain
       href: ../domain-management/cannot-assign-federated-domain-to-user.md
-    - name: Can't remove a domain from Office 365
+    - name: Can't remove a domain from Microsoft 365
       href: ../domain-management/cannot-remove-domain-from-o365.md
     - name: Can't send emails from full redelegation domain
       href: ../administration/send-email-full-redelegation-domain.md
-    - name: Can't verify a domain in Office 365
+    - name: Can't verify a domain in Microsoft 365
       href: ../administration/cant-verify-domain-error-when-verify-domain.md
     - name: Child domain doesn't inherit parent changes
       href: ../administration/child-domain-fails-inherit-parent-domain-changes.md
     - name: Click-to-Run compatibility with add-ins
       href: ../administration/click-to-run-compatibility-with-add-in.md
-    - name: Domain errors in the Office 365 portal
+    - name: Domain errors in the Microsoft 365 portal
       href: ../administration/domain-errors-in-office-365-portal.md
     - name: Domain has associated subdomains
       href: ../administration/fails-removing-domain.md
@@ -171,7 +173,7 @@
       href: ../administration/setup-in-progress-office-365-portal.md
     - name: Enable or disable hyperlink warning messages
       href: ../administration/enable-disable-hyperlink-warning.md
-    - name: Issue when remove a domain
+    - name: Issue when removing a domain
       href: ../administration/error-remove-domain-from-office-365.md
     - name: SupportMultipleDomain switch when managing SSO
       href: ../administration/supportmultipledomain-switch-when-manage-sso.md
@@ -201,11 +203,13 @@
       href: ../installation/desktop-setup-tool-logging-errors.md
     - name: Error 12 when installing Office Click-to-Run
       href: ../installation/click-to-run-installation-error-12.md
-    - name: Error 30050-1039 (0) when installing M365 Apps for enterprise
+    - name: Error 30050-1039 (0) when installing Microsoft 365 Apps for enterprise
       href: ../installation/error-30050-1039-0.md
-    - name: Error when uninstalling O365 Pro Plus
+    - name: Error when installing Microsoft 365 apps
+      href: ../installation/cannot-access-powershell-file-error.md
+    - name: Error when uninstalling Microsoft 365 Pro Plus
       href: ../installation/something-went-wrong-30016-4-error.md
-    - name: Install Office 365 apps
+    - name: Install Microsoft 365 apps
       href: ../installation/install-apps.md
     - name: Install SaRA from network share
       href: ../installation/install-sara-from-network-share.md
@@ -229,7 +233,7 @@
       href: ../licensing/subscription-issue-in-office-mobile.md
     - name: Determine the license type of your Microsoft Office product
       href: ../licensing/determine-office-license-type.md
-    - name: Disabled Office 365 Sway tile continues to appear in App Launcher
+    - name: Disabled Microsoft 365 Sway tile continues to appear in App Launcher
       href: ../licensing/disabled-sway-tile-appear.md
     - name: Download office web apps server
       href: ../licensing/download-office-web-apps-server.md
@@ -237,11 +241,11 @@
       href: ../licensing/error-code-6031-buy-licenses-office-365.md
     - name: License issue when retain Online mailbox
       href: ../licensing/license-issue-when-retain-online-mailbox.md
-    - name: Office 365 subscription automatic license renewal fails 
+    - name: Microsoft 365 subscription automatic license renewal fails 
       href: ../licensing/subscription-automatic-license-renew-fails.md
-    - name: Office 365 subscription automatic license renewal fails
+    - name: Microsoft 365 subscription automatic license renewal fails
       href: ../licensing/subscription-license-renewal-fail.md
-    - name: Use Office 365 PowerShell to manage Microsoft Planner licenses
+    - name: Use Microsoft 365 PowerShell to manage Microsoft Planner licenses
       href: ../licensing/how-to-use-office-365-powershell-to-manage-microsoft-planner-licenses.md
   - name: Miscellaneous
     items:
@@ -249,13 +253,13 @@
       href: ../miscellaneous/cant-connect-azure-information-protection.md
     - name: Chrome cookie behavior effect on applications
       href: ../miscellaneous/chrome-behavior-affects-applications.md
-    - name: Office 365 changes build numbers to a five-digit format
+    - name: Microsoft 365 changes build numbers to a five-digit format
       href: ../miscellaneous/build-number-five-digit.md
     - name: Open Support cases for GCC High and DoD
       href: ../miscellaneous/support-cases-for-gcc-high-dod.md
     - name: Reports show anonymous user names
       href: ../miscellaneous/reports-show-anonymous-user-name.md
-    - name: Third-party network solutions on Office 365 traffic
+    - name: Third-party network solutions on Microsoft 365 traffic
       href: ../miscellaneous/office-365-third-party-network-devices.md
     - name: Troubleshoot Cortana issues
       href: ../miscellaneous/issues-in-cortana.md
@@ -269,11 +273,11 @@
       href: ../sign-in/sign-in-to-office-2016-for-mac-fail.md
     - name: Can't sign in to Microsoft cloud service
       href: ../sign-in/office-365-azure-intune-sign-in-issue.md
-    - name: Can't sign in to Office 365 portal
+    - name: Can't sign in to Microsoft 365 portal
       href: ../sign-in/cannot-sign-in-to-office-365.md
-    - name: Can't sign in to Office 365, Azure, or Intune
+    - name: Can't sign in to Microsoft 365, Azure, or Intune
       href: ../sign-in/sign-in-to-office-365-azure-intune.md
-    - name: Can't sign out of Office 365, Azure, or Intune
+    - name: Can't sign out of Microsoft 365, Azure, or Intune
       href: ../sign-in/cannot-sign-out-cloud-service.md
     - name: Can't to remove this domain
       href: ../sign-in/unable-remove-domain-office-365.md
@@ -281,19 +285,19 @@
       href: ../sign-in/unable-reset-user-password-sso.md
     - name: Determine whether account is compromised
       href: ../sign-in/determine-account-is-compromised.md
-    - name: Error when federated users sign in to Office 365
+    - name: Error when federated users sign in to Microsoft 365
       href: ../sign-in/federated-users-sign-in-error-ad-fs.md
-    - name: Error when you access emails in Office 365
+    - name: Error when you access emails in Microsoft 365
       href: ../sign-in/we-are-having-trouble-signing-you-in-error.md
     - name: Federated user is repeatedly prompted for credentials
       href: ../sign-in/federated-user-repeatedly-prompted-for-credentials.md
-    - name: Forgot sign-in password to M365, Azure, or Intune
+    - name: Forgot sign-in password to Microsoft 365, Azure, or Intune
       href: ../sign-in/forgot-sign-in-password.md
-    - name: Issue when sign in Office 365
+    - name: Issue when sign in Microsoft 365
       href: ../sign-in/exchange-online-application-service-principal-disabled.md
     - name: Issue with activate or sign in to Office Mobile
       href: ../sign-in/permission-error-activating-office-mobile.md
-    - name: Office 365 users aren't automatically signed into Office
+    - name: Microsoft 365 users aren't automatically signed into Office
       href: ../sign-in/office-365-users-not-signed-in-office.md
     - name: Online Services Sign In Assistant error when activating Office
       href: ../sign-in/sign-in-assistant-error.md

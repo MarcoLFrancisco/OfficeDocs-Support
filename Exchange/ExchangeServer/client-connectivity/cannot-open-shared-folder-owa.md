@@ -15,9 +15,9 @@ appliesto:
 - Exchange Server 2013 Standard Edition 
 - Exchange Online
 search.appverid: MET150
-ms.reviewer: abdallaa, excontent, ninob, kellybos, jmartin
-author: simonxjx
-ms.author: v-six
+ms.reviewer: abdallaa, excontent, ninob, kellybos, jmartin, v-six
+author: cloud-writer
+ms.author: meerak
 ms.date: 3/31/2022
 ---
 # Can't open a shared folder in Outlook on the web in Exchange Server
@@ -35,7 +35,7 @@ Consider the following scenarios:
 
 ### Scenario 2
 
-- You have a hybrid Office 365 environment.
+- You have a hybrid Microsoft 365 environment.
 - User1 has a mailbox in the cloud.
 - User2 has a mailbox on-premises.
 - User1 has full access permissions to the mailbox for User2.

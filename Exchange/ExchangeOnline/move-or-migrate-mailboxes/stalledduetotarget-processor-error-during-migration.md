@@ -1,8 +1,8 @@
 ---
 title: MapiFxProxyTransientException when doing migration
-description: Describes a problem in which you receive a StalledDueToTarget_Processor error message when you perform an Exchange migration in Office 365. Provides a solution.
-author: simonxjx
-ms.author: v-six
+description: Describes a problem in which you receive a StalledDueToTarget_Processor error message when you perform an Exchange migration in Microsoft 365. Provides a solution.
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Online
   - CSSTroubleshoot
-ms.reviewer: benjak
+ms.reviewer: benjak, v-six
 appliesto: 
   - Exchange Online
 search.appverid: MET150
 ms.date: 3/31/2022
 ---
-# StalledDueToTarget_Processor error during Exchange migration in Office 365
+# StalledDueToTarget_Processor error during Exchange migration in Microsoft 365
 
 _Original KB number:_ &nbsp; 3162761
 
 ## Symptoms
 
-When you perform a Microsoft Exchange Server migration, you receive a **StalledDueToTarget_Processor** error message. This problem occurs in Office 365.
+When you perform a Microsoft Exchange Server migration, you receive a **StalledDueToTarget_Processor** error message. This problem occurs in Microsoft 365.
 
 When you view the data in the move report, the report contains an error message that resembles the following:
 

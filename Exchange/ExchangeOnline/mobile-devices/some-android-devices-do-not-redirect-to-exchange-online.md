@@ -1,8 +1,8 @@
 ---
 title: Some Android devices do not redirect to Exchange Online
 description: Resolves an issue that prevents Android devices from setting up an Exchange account after you've installed Exchange Server 2010 SP3 RU9, Exchange Server 2013 CU8, or Exchange Server 2016 on the server.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Online
   - CSSTroubleshoot
-ms.reviewer: batre, jmartin, genli, jamesmi
+ms.reviewer: batre, jmartin, genli, jamesmi, v-six
 appliesto: 
   - Exchange Online
   - Exchange Server 2019
@@ -50,7 +50,7 @@ The most recent list of known Android devices that understand this feature can b
 
 If the device isn't in the **MobileSyncRedirectBypassClientPrefixes** setting in the Autodiscover web.config file, do one of the following:
 
-- Manually edit the server value for the Exchange ActiveSync (EAS) profile after the mailbox is moved to Office 365.
+- Manually edit the server value for the Exchange ActiveSync (EAS) profile after the mailbox is moved to Microsoft 365.
 - Test to determine whether the device supports the MobileSyncRedirectBypass feature. If the device supports the feature, edit the **MobileSyncRedirectBypassClientPrefixes** setting across all Exchange servers in the environment.
 
-For more information, see [Exchange ActiveSync on-boarding to Office 365](https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-activesync-on-boarding-to-office-365/ba-p/610980).
+For more information, see [Exchange ActiveSync on-boarding to Microsoft 365](https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-activesync-on-boarding-to-office-365/ba-p/610980).

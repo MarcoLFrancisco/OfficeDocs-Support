@@ -1,9 +1,9 @@
 ---
 title: Microsoft 365 Apps activation error Trusted Platform Module malfunctioned
 description: Troubleshooting methods for activation errors related to the TPM.
-author: v-matthamer
+author: helenclu
 ms.reviewer: vikkarti
-ms.author: v-matthamer
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -15,7 +15,7 @@ search.appverid:
   - MET150
 appliesto: 
   - Microsoft 365
-ms.date: 3/31/2022
+ms.date: 5/17/2023
 ---
 
 # Microsoft 365 Apps activation error: “Trusted Platform Module malfunctioned”
@@ -73,7 +73,7 @@ If the process isn’t blocked, but you still can’t activate Microsoft 365, de
 1.	Restart the device.
 1.	Download and run [the SaRA package for sign in issues](https://aka.ms/SaRA-OfficeSignInScenario).
 
-For manual troubleshooting for step 7, or for more information, see [Fix authentication issues in Office applications when you try to connect to an Office 365 service](/office365/troubleshoot/authentication/automatic-authentication-fails).
+For manual troubleshooting for step 7, or for more information, see [Fix authentication issues in Office applications when you try to connect to a Microsoft 365 service](/microsoft-365/troubleshoot/authentication/automatic-authentication-fails).
 <br/><br/>
 </details>
 
@@ -91,8 +91,9 @@ For manual troubleshooting for step 7, or for more information, see [Fix authent
 <summary><b>Troubleshoot Azure AD hybrid join</b></summary>
 
 1.	Open a Command Prompt window as an administrator. From Start, type *cmd.exe* in the search box, right-click **Command Prompt** in the list, and then select **Run as administrator**.  
-1.	Type the following command, and then press Enter:
-`desregmd /status`
+1. Type the following command, and then press Enter:
+
+   `dsregcmd /status`
 
 If EventID 220 is present in User Device Registration event logs, see [Troubleshoot hybrid Azure AD-joined devices](/azure/active-directory/devices/troubleshoot-hybrid-join-windows-current).
 
@@ -187,3 +188,5 @@ Update the BIOS for your device. If you need more information about doing so, co
 1.	Try to activate Microsoft 365 again.
 <br/><br/>
 </details>
+
+

@@ -1,8 +1,8 @@
 ---
 title: Cannot disable Facebook contact sync for organization
 description: Describes an issue in which your Facebook contact sync still appears to be enabled after you try to disable it through the Exchange admin center. Or, you receive an error message when you try to disable sync by using the Set-OwaMailboxPolicy cmdlet.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Online
   - CSSTroubleshoot
-ms.reviewer: timothyh
+ms.reviewer: timothyh, v-six
 appliesto: 
   - Exchange Online
 search.appverid: MET150
 ms.date: 3/31/2022
 ---
-# You can't disable Facebook contact sync for your Office 365 organization
+# You can't disable Facebook contact sync for your Microsoft 365 organization
 
 _Original KB number:_ &nbsp; 2898124
 
 ## Symptoms
 
-When you try to disable Facebook contact sync in your Office 365 organization through a mailbox policy, you experience one or both of the following symptoms:
+When you try to disable Facebook contact sync in your Microsoft 365 organization through a mailbox policy, you experience one or both of the following symptoms:
 
 - After you try to disable it through the Exchange admin center, the feature still seems to be enabled.
 - If you run the `Set-OwaMailboxPolicy` cmdlet together with the `DisableFacebook` switch, you receive the following error message:
@@ -44,7 +44,7 @@ Make sure that users don't have the option to connect to Facebook. If users don'
 
 For more info about Facebook contact sync, see [Manage Facebook contact sync in your organization](/exchange/recipients-in-exchange-online/manage-facebook-contact-sync).
 
-The features that are available to your Office 365 organization are determined by the service plan for your account. Some features aren't available to mailboxes or organizations in specific regions.
+The features that are available to your Microsoft 365 organization are determined by the service plan for your account. Some features aren't available to mailboxes or organizations in specific regions.
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com/).
 

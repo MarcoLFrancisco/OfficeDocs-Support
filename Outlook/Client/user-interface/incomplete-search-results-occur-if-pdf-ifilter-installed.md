@@ -1,8 +1,8 @@
 ---
 title: Incomplete search results if PDF iFilter installed
 description: Provides a resolution for the issue that you may receive incomplete search results in Microsoft Outlook when a PDF iFilter is installed.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -15,7 +15,7 @@ appliesto:
   - Outlook 2019
   - Outlook 2016
   - Outlook 2013
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
   - Microsoft Outlook 2010
   - Microsoft Office Outlook 2007
 search.appverid: MET150

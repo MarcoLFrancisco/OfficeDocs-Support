@@ -1,8 +1,8 @@
 ---
 title: Errors have been detected in .ost file
 description: Describes an issue where you receive Errors have been detected in the .ost file error. Provides a resolution.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -15,7 +15,7 @@ appliesto:
   - Outlook 2019
   - Outlook 2016
   - Outlook 2013
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
 search.appverid: MET150
 ms.date: 3/31/2022
 ---

@@ -1,8 +1,8 @@
 ---
 title: Target mailbox unlock operation was not replicated error
 description: Describes an issue in which you receive a warning after you migrate a mailbox from the on-premises Exchange Server environment to Exchange Online in an Exchange hybrid deployment.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Online
   - CSSTroubleshoot
-ms.reviewer: vibour
+ms.reviewer: vibour, v-six
 appliesto: 
   - Exchange Online
   - Exchange Server 2013 Enterprise
@@ -24,7 +24,7 @@ _Original KB number:_ &nbsp; 3078572
 
 ## Symptoms
 
-After you move a mailbox from the on-premises Microsoft Exchange Server environment to Microsoft Exchange Online in Microsoft Office 365 in a hybrid deployment, you receive the following warning message:
+After you move a mailbox from the on-premises Microsoft Exchange Server environment to Microsoft Exchange Online in Microsoft 365 in a hybrid deployment, you receive the following warning message:
 
 > Warning: Target mailbox unlock operation was not replicated. If a lossy failover occurs after the target mailbox was unlocked, the target mailbox could remain inaccessible.
 >
@@ -36,7 +36,7 @@ A replication delay in the service occurred. This may prevent some post-migratio
 
 ## Resolution
 
-The user may be unable to access the mailbox immediately after the migration is complete. As soon as replication is complete, the user will be able to access the mailbox. If the user continues to be unable to access the mailbox 60 minutes after the migration is complete, contact Office 365 Support.
+The user may be unable to access the mailbox immediately after the migration is complete. As soon as replication is complete, the user will be able to access the mailbox. If the user continues to be unable to access the mailbox 60 minutes after the migration is complete, contact Microsoft 365 Support.
 
 ## More information
 

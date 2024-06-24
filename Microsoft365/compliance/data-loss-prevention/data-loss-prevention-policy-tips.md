@@ -1,14 +1,14 @@
 ---
 title: Issues that affect DLP policy tips
 description: Fixes some issues that occur if DLP policy tips don't work as expected.
-author: MaryQiu1987
+author: helenclu
 manager: dcscontentpm
 localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.author: v-maqiu
+ms.author: luche
 ms.reviewer: chgary, lindabr, sathyana
 ms.custom: 
   - CSSTroubleshoot
@@ -20,8 +20,6 @@ ms.date: 3/31/2022
 ---
 
 # Resolve issues that affect DLP policy tips
-
-[!include[Purview banner](../../../includes/purview-rebrand.md)]
 
 Data Loss Prevention (DLP) policy tip settings are configured in DLP policies. If you created DLP policies in Exchange Online, we recommend that you [migrate them to the Microsoft Purview compliance portal](/microsoft-365/compliance/dlp-migrate-exo-policy-to-unified-dlp). This is because [legacy Exchange Online data loss prevention in the Exchange admin center will be deprecated](/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention). For policies that are not migrated, you might see unexpected results, such as no display of policy tips.
 

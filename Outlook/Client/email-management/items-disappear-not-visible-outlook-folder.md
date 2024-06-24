@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Office Outlook 2003
 - Microsoft Business Productivity Online Dedicated
 - Microsoft Business Productivity Online Suite Federal
-- Outlook for Office 365
+- Outlook for Microsoft 365
 - Outlook 2019
 search.appverid: MET150
-ms.reviewer: 
-author: simonxjx
-ms.author: v-six
+ms.reviewer: v-six
+author: cloud-writer
+ms.author: meerak
 ms.date: 3/31/2022
 ---
 # Items disappear or are not visible in an Outlook folder

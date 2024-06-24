@@ -1,8 +1,8 @@
 ---
 title: Offline item count differs from server count
 description: Describes an Outlook issue in which the number of items in the Server folder doesn't match the number in the Offline folder. This issue involves a synchronization filter on one of the folders. A resolution is provided.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -17,7 +17,7 @@ appliesto:
   - Outlook 2013
   - Microsoft Outlook 2010
   - Microsoft Office Outlook 2007
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
 search.appverid: MET150
 ms.date: 3/31/2022
 ---

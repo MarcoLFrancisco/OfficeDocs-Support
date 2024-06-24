@@ -1,8 +1,8 @@
 ---
 title: In-Place eDiscovery preview isn't available for items
 description: Describes an issue that blocks In-Place eDiscovery preview in Exchange Online mailboxes. Instead, you receive a Your request couldn't be completed error message.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -19,8 +19,6 @@ ms.date: 3/31/2022
 # In-Place eDiscovery preview isn't available for items in inactive Exchange Online mailboxes
 
 _Original KB number:_ &nbsp; 2989744
-
-[!include[Purview banner](../../../includes/purview-rebrand.md)]
 
 ## Problem
 

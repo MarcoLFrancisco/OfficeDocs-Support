@@ -1,8 +1,8 @@
 ---
 title: Cross-forest or Hybrid free/busy lookups fail
 description: Cross-forest or hybrid free/busy information lookups fail in Microsoft Exchange Server. Provides a resolution.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Server
   - CSSTroubleshoot
-ms.reviewer: brianday, grtaylor, wduff
+ms.reviewer: brianday, grtaylor, wduff, v-six
 appliesto: 
   - Exchange Server 2016 Enterprise Edition
   - Exchange Server 2016 Standard Edition
@@ -39,7 +39,7 @@ This issue occurs in these product versions:
 - Microsoft Exchange Online
 
 > [!NOTE]
-> The Hybrid Configuration wizard that's included in the Exchange Management Console in Microsoft Exchange Server 2010 is no longer supported. Therefore, you should no longer use the old Hybrid Configuration wizard. Instead, use the Office 365 Hybrid Configuration wizard that's available at [Office 365 Hybrid Configuration wizard](https://aka.ms/hybridwizard).
+> The Hybrid Configuration wizard that's included in the Exchange Management Console in Microsoft Exchange Server 2010 is no longer supported. Therefore, you should no longer use the old Hybrid Configuration wizard. Instead, use the Microsoft 365 Hybrid Configuration wizard that's available at [Microsoft 365 Hybrid Configuration wizard](https://aka.ms/hybridwizard).
 
 ## Cause
 

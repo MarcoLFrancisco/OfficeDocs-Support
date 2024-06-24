@@ -1,7 +1,7 @@
 ---
 title: Your organization has disabled this device when trying to activate Microsoft 365 Apps
-ms.author: v-maqiu
-author: MaryQiu1987
+ms.author: luche
+author: helenclu
 manager: dcscontentpm
 ms.date: 9/4/2020
 audience: Admin
@@ -60,6 +60,6 @@ For more information about how to troubleshoot Microsoft Office client-side sign
 - [Disabling ADAL or WAM not recommended for fixing Office sign-in or activation issues](../administration/disabling-adal-wam-not-recommended.md)
 - [Connection issues in sign-in after update to Office 2016 build 16.0.7967 on Windows 10](../authentication/connection-issue-when-sign-in-office-2016.md)
 - [Reset Microsoft 365 Apps for enterprise activation state](/office/troubleshoot/activation/reset-office-365-proplus-activation-state)
-- [Fix authentication issues in Office applications when you try to connect to an Office 365 service](../authentication/automatic-authentication-fails.md)
+- [Fix authentication issues in Office applications when you try to connect to a Microsoft 365 service](../authentication/automatic-authentication-fails.md)
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com/).

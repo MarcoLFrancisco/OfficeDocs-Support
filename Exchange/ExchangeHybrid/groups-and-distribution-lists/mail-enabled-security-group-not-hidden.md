@@ -1,8 +1,8 @@
 ---
 title: Can't hide a mail-enabled security group
 description: Fixes an issue in an Exchange hybrid deployment in which a mail-enabled security group isn't hidden from the GAL after directory synchronization.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: travr
+ms.reviewer: travr, v-six
 appliesto: 
   - Exchange Online
 search.appverid: MET150
@@ -22,7 +22,7 @@ _Original KB number:_ &nbsp; 3205648
 
 ## Problem
 
-You have an Exchange Online hybrid deployment. You want to hide a mail-enabled security group that was created in the on-premises Active Directory so that it's not available to Office 365 users. However, after a directory synchronization, the security group is listed in the global address list (GAL) and visible to Office 365 users.
+You have an Exchange Online hybrid deployment. You want to hide a mail-enabled security group that was created in the on-premises Active Directory so that it's not available to Microsoft 365 users. However, after a directory synchronization, the security group is listed in the global address list (GAL) and visible to Microsoft 365 users.
 
 ## Cause
 

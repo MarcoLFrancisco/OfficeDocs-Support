@@ -1,8 +1,8 @@
 ---
 title: Emails not automatically sent or received at startup
 description: Describes that Outlook 2003 and Outlook 2002 do not send and receive messages automatically at startup. The behavior occurs when there is a damaged Send/Receive group within Outlook. Requires you to create a new Send/Receive group to resolve the issue.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Outlook 2010
   - Microsoft Office Outlook 2007
   - Microsoft Office Outlook 2003
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
 search.appverid: MET150
 ms.date: 3/31/2022
 ---

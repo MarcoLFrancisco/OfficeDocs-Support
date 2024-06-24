@@ -1,8 +1,8 @@
 ---
 title: Chrome SameSite cookie behavior effect on customer applications
 description: Describes a potential disruptive impact to customer applications and services because of a change in cookie behavior in Chrome browser version 80 and later.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -12,7 +12,7 @@ ms.custom:
   - CSSTroubleshoot
 ms.reviewer: hirsin, tspring
 appliesto: 
-  - Office 365
+  - Microsoft 365
   - Azure Active Directory
   - Azure
 search.appverid: MET150

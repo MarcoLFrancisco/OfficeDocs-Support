@@ -1,8 +1,8 @@
 ---
 title: Your request couldn't be completed when searching audit log
 description: Describes an error that occurs when a user tries to search the audit log in the Office 365 Security & Compliance Center. Provides a solution.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -16,11 +16,9 @@ search.appverid: MET150
 ms.date: 3/31/2022
 ---
 
-# "Your request couldn't be completed. Please try again" error when you try to search the audit log in Office 365
+# "Your request couldn't be completed. Please try again" error when you try to search the audit log in Microsoft 365
 
 _Original KB number:_&nbsp;3193501
-
-[!include[Purview banner](../../../includes/purview-rebrand.md)]
 
 ## Problem
 
@@ -45,6 +43,6 @@ Create a custom role group in the Exchange admin center, add the View-Only Audit
 
 ## More information
 
-For more information, see [Search the audit log in the Office 365 Security & Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
+For more information, see [Search the audit log in the compliance portal](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com).

@@ -1,8 +1,8 @@
 ---
 title: Self-help diagnostics for issues in Exchange Online and Outlook
 description: Lists diagnostics to troubleshoot issues in Exchange Online and Outlook.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -16,7 +16,7 @@ appliesto:
   - Exchange Online
   - Outlook
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 7/11/2023
 ---
 # Self-help diagnostics for issues in Exchange Online and Outlook
 
@@ -41,6 +41,9 @@ Several diagnostics currently cover the various areas within Exchange Online and
 |Diagnostic|Description|Shortcut Link|Support article|
 |---|---|---|---|
 |Migration Exchange Web Services (EWS) throttling policy|Verify that the EWS throttling policy isn't too restrictive for a mailbox data migration that uses third-party tools. (Doesn't apply to Microsoft tools for Hybrid, IMAP, G Suite, or Public Folder migrations.)|[Run Tests: EWS Throttling](https://aka.ms/PillarEWSThrottling)||
+|Test a user's Exchange Online RBAC permissions|If a user has issues running a specific PowerShell cmdlet or command, or gets an error indicating that they don't have the correct roles or permissions, run this diagnostic to check whether the user has permissions to run the cmdlet and the specific parameter.|[Run Tests: EXO RBAC test user](https://aka.ms/PillarEXORBACTest)||
+|Compare Exchange Online RBAC permissions for two users|If one user has issues running a specific PowerShell cmdlet or command, or gets an error indicating that they don't have the correct roles or permissions, while another user doesn't have these problems, run this diagnostic to compare the RBAC roles of the two users.|[Run Tests: EXO RBAC compare users](https://aka.ms/PillarEXORBACCompare)||
+|Recipient failure|Check the state of an Exchange Online recipient and resolve common issues.|[Run Tests: EXO Recipient Object Failures](https://aka.ms/PillarEXORecipients)|[Delays in provisioning of user/mailbox or synchronizing changes in Exchange Online](/exchange/troubleshoot/user-and-shared-mailboxes/delays-provision-mailbox-sync-changes)|
 |Mailbox or message size|Check the size of a mailbox or the size of messages (including attachments).|[Run Tests: Mailbox Size](https://aka.ms/PillarMailboxSize)|[Increase or customize Exchange Online mailbox size](/exchange/troubleshoot/user-and-shared-mailboxes/increase-or-customize-mailbox-size)|
 |Deleted mailbox diagnostics|Check the state of recently deleted mailboxes.|[Run Tests: Deleted Mailbox](https://aka.ms/PillarDeletedMailBox)|[Delete or restore user mailboxes in Exchange Online](/exchange/recipients-in-exchange-online/delete-or-restore-mailboxes)|
 |Exchange Remote PowerShell throttling policy|Update the Exchange Remote PowerShell throttling policy for the tenant.|[Run Tests: PowerShell Throttling](https://aka.ms/PillarEXOPSThrottle)||
@@ -49,8 +52,8 @@ Several diagnostics currently cover the various areas within Exchange Online and
 |Non-delivery report (NDR) diagnostics|Provide additional information about NDRs that are received through email messages.|[Run Tests: Email NDR](https://aka.ms/PillarEmailNDR)|[Email non-delivery reports in Exchange Online](/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)|
 |Archive mailbox diagnostics|Check and identify issues about mailbox archiving.|[Run Tests: Archive Mailbox](https://aka.ms/PillarArchiveMailbox)|[Enable archive mailboxes in the Microsoft Purview compliance portal](/microsoft-365/compliance/enable-archive-mailboxes)|
 |Outlook user password prompt diagnostics|Diagnose Outlook password prompt issues for users by running several checks on possible service-side settings (root causes) so that a tenant admin can quickly fix the issues without involving the users.|[Run Tests: Outlook Password Prompt](https://aka.ms/PillarOutlookPasswordPrompt)|[Fix Outlook password prompt issue](/outlook/troubleshoot/authentication/continually-prompts-password-office-365)|
-|Retention policy diagnostics|Check retention policy settings.|[Run Tests: Retention Policy](https://aka.ms/PillarRetentionPolicy)|[Retention tags and retention policies in Exchange Online](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)|
-|Enable Basic authentication in Exchange Online|Enable Basic authentication for legacy protocols in Exchange Online if previously disabled by Microsoft, or opt out of the disabling process if there is a need to use Basic authentication with specific legacy protocols.|[Run Tests: Basic Auth in EXO](https://aka.ms/PillarEXOBasicAuth)|[Basic Authentication and Exchange Online – June 2021 Update](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-and-exchange-online-june-2021-update/ba-p/2454827)|
+|Retention policy diagnostics for a user mailbox|Check retention policy settings on a user mailbox.|[Run Tests: Retention Policy on a user mailbox](https://aka.ms/PillarRetentionPolicy)|[Retention tags and retention policies in Exchange Online](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)|
 |DomainKeys Identified Mail (DKIM) diagnostics|Validate that DKIM signing is configured correctly and the correct DNS entries have been published.|[Run Tests: DKIM](https://aka.ms/diagdkim)|[Use DKIM to validate outbound email sent from your custom domain](/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email)|
+|Compromised Account diagnostics|Identify suspicious activities against an account and return information that can be used to recover the account if compromised.|[Run Tests: Compromised Account](https://aka.ms/diagca)|[Responding to a compromised email account](/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account)|
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com/).

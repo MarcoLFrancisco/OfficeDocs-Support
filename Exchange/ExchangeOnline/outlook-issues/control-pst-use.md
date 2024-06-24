@@ -1,30 +1,30 @@
 ---
-title: Outlook policy to control PST use and creation in Office 365 Import service
-description: Describes how to use Outlook policy to prevent users from adding new items to a .pst file and to prevent users from creating new .pst files during the import process. This applies to the Office 365 Import service.
-author: simonxjx
+title: Policy to control PST use and creation in Microsoft Outlook
+description: Describes how to use Outlook policy to prevent users from adding new items to a .pst file and to prevent users from creating new .pst files.
+author: cloud-writer
+ms.author: meerak
 audience: ITPro
 ms.topic: troubleshooting
-ms.author: v-six
 ms.custom: 
-  - Exchange Online
   - CSSTroubleshoot
 manager: dcscontentpm
 localization_priority: Normal
 search.appverid: 
   - MET150
 appliesto: 
-  - Exchange Online
+  - Outlook for Microsoft 365
   - Outlook 2013
-  - Microsoft Outlook 2010
-  - Microsoft Office Outlook 2007
-ms.date: 3/31/2022
+  - Outlook 2010
+  - Outlook 2007
+ms.date: 5/18/2023
+ms.reviewer: v-six
 ---
 
-# How to use Outlook policy to control PST use and creation in the Office 365 Import service
+# How to implement a policy to control PST use and creation in Microsoft Outlook
 
 ## Introduction
 
-When you use the Microsoft Office 365 Import service, you may want to control whether users can add new items to .pst files and how users use .pst files in Microsoft Outlook. This article describes how to prevent users from adding new items to an existing .pst file and how to prevent users from creating new .pst files during the import process.
+In Microsoft Outlook, users can create PST files or add new items to existing PST files. This article describes how to control these behaviors as an administrator.
 
 ## Procedure
 
@@ -44,7 +44,7 @@ To prevent users from adding new data or content to an existing .pst file, add t
    |Office Customization Tool (OCT)|`HKEY_CURRENT_USER\Software\Microsoft\Office\xx.0\Outlook\PST`|
    
    > [!NOTE]
-   > The *xx*.0 placeholder represents the Outlook version (16.0 = Outlook 2016 and Outlook for Office 365, 15.0 = Outlook 2013, 14.0 = Outlook 2010, 12.0 = Outlook 2007).
+   > The *xx*.0 placeholder represents the Outlook version (16.0 = Outlook 2016 and Outlook for Microsoft 365, 15.0 = Outlook 2013, 14.0 = Outlook 2010, 12.0 = Outlook 2007).
 
 1. On the **Edit** menu, point to **New**, and then select **DWORD Value**.
 1. Type `PSTDisableGrow`, and then press Enter.
@@ -71,7 +71,7 @@ To prevent users from connecting a .pst file to Outlook, add the `DisablePST` re
    |Office Customization Tool (OCT)|`HKEY_CURRENT_USER\Software\Microsoft\Office\xx.0\Outlook`|
    
    > [!NOTE]
-   > The *xx*.0 placeholder represents the Outlook version (16.0 = Outlook 2016 and Outlook for Office 365, 15.0 = Outlook 2013, 14.0 = Outlook 2010, 12.0 = Outlook 2007).
+   > The *xx*.0 placeholder represents the Outlook version (16.0 = Outlook 2016 and Outlook for Microsoft 365, 15.0 = Outlook 2013, 14.0 = Outlook 2010, 12.0 = Outlook 2007).
 
 1. On the **Edit** menu, point to **New**, and then select **DWORD Value**.
 1. Type `DisablePST`, and then press Enter.

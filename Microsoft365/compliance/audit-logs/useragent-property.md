@@ -1,8 +1,8 @@
 ---
 title: What the UserAgent property value refers to in the unified audit log
 description: Describes what the value for the user agent in a unified audit log refers to and how to disable legacy protocols.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -19,8 +19,6 @@ ms.date: 3/31/2022
 # UserAgent property value in the unified audit log from the Security & Compliance Center
 
 _Original KB number:_&nbsp;4487380
-
-[!include[Purview banner](../../../includes/purview-rebrand.md)]
 
 ## Summary
 

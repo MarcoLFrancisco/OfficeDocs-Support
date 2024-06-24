@@ -1,8 +1,8 @@
 ---
 title: Extension number can‎'t be generated
-description: Fixes an issue that triggers a MigrationPermanentException error if the mailbox that you're trying to move from the on-premises environment to Exchange Online in Office 365 is missing a primary Exchange Unified Messaging address.
-author: simonxjx
-ms.author: v-six
+description: Fixes an issue that triggers a MigrationPermanentException error if the mailbox that you're trying to move from the on-premises environment to Exchange Online in Microsoft 365 is missing a primary Exchange Unified Messaging address.
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: sgorania
+ms.reviewer: sgorania, v-six
 appliesto: 
   - Exchange Online
   - Exchange Server 2016 Enterprise Edition
@@ -20,13 +20,13 @@ appliesto:
 search.appverid: MET150
 ms.date: 3/31/2022
 ---
-# Extension number can‎'t be generated for the user when moving a mailbox from on-premises to Office 365
+# Extension number can‎'t be generated for the user when moving a mailbox from on-premises to Microsoft 365
   
 _Original KB number:_ &nbsp; 3142072
 
 ## Problem
 
-When you try to on-board or move a mailbox from an on-premises Exchange Server environment to Exchange Online in Office 365 in a hybrid deployment, the operation fails during the validation stage. You receive the following error message:
+When you try to on-board or move a mailbox from an on-premises Exchange Server environment to Exchange Online in Microsoft 365 in a hybrid deployment, the operation fails during the validation stage. You receive the following error message:
 
 > MigrationPermanentException:  
 > Mailbox '\<UserName>' in the source forest is currently enabled for Unified Messaging but it can‎'t be enabled for Unified Messaging in the target forest for the following reason: An extension number can‎'t be generated for the user. To configure an extension number, use the `-Extensions` parameter with one or more valid extension numbers. Please fix the problem or disable the mailbox for Unified Messaging before you try the operation again.

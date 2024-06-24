@@ -1,8 +1,8 @@
 ---
 title: Deploy the SaRA tool using Microsoft Intune
 description: Learn how to deploy SaRA to multiple users using Microsoft Intune.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -141,6 +141,6 @@ For complete information about app deployment by using Microsoft Intune, see the
  
         :::image type="content" source="media/install-sara-from-intune/search-this-list-support.png" alt-text="Screenshot to type support in the Search this list box.":::
         > [!NOTE]
-        > The SaRA tool requires access to network endpoints needed for connectivity from a user of Office 365 across an enterprise perimeter network. The current list of endpoint is provided in [Additional endpoints not included in the Office 365 IP Address and URL Web service](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls?view=o365-worldwide&preserve-view=true).
+        > The SaRA tool requires access to network endpoints needed for connectivity from a user of Microsoft 365 across an enterprise perimeter network. The current list of endpoint is provided in [Additional endpoints not included in the Microsoft 365 IP Address and URL Web service](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls?view=o365-worldwide&preserve-view=true).
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com/).

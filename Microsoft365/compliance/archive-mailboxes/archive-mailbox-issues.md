@@ -1,8 +1,8 @@
 ---
-title: Archive mailbox issues for a mailbox that's migrated to or from Office 365
-description: Describes archive mailbox issues for a mailbox that's migrated to or from Office 365. Provides a resolution.
-author: MaryQiu1987
-ms.author: v-maqiu
+title: Archive mailbox issues for a mailbox that's migrated to or from Microsoft 365
+description: Describes archive mailbox issues for a mailbox that's migrated to or from Microsoft 365. Provides a resolution.
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -18,15 +18,13 @@ search.appverid: MET150
 ms.date: 3/31/2022
 ---
 
-# Archive mailbox issues for a mailbox that's migrated to or from Office 365
+# Archive mailbox issues for a mailbox that's migrated to or from Microsoft 365
 
 _Original KB number:_&nbsp;2757430
 
-[!include[Purview banner](../../../includes/purview-rebrand.md)]
-
 ## Problem
 
-When you migrate a mailbox to or from Microsoft Office 365 and use an archive mailbox, you experience an issue in which the Microsoft Exchange Mailbox Replication service (MRS) in Microsoft Exchange Online stamps the target domain value of the ArchiveDomain property of the mailbox at the end of the migration.
+When you migrate a mailbox to or from Microsoft 365 and use an archive mailbox, you experience an issue in which the Microsoft Exchange Mailbox Replication service (MRS) in Microsoft Exchange Online stamps the target domain value of the ArchiveDomain property of the mailbox at the end of the migration.
 
 > [!NOTE]
 > The issue shouldn't occur on an account that doesn't have an archive mailbox.

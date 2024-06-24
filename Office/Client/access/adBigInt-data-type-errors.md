@@ -1,7 +1,7 @@
 ---
 title: Access ADODB code errors when you use the adBigInt data type
 description: The value you entered isn't valid, Too few parameters and Not enough memory resources are available errors when using ADODB code that refers to the adBigInt data type in Access.
-author: MaryQiu1987
+author: helenclu
 manager: dcscontentpm
 localization_priority: Normal
 search.appverid: 
@@ -9,9 +9,9 @@ search.appverid:
 audience: ITPro
 ms.topic: troubleshooting
 ms.custom: CSSTroubleshoot
-ms.author: v-maqiu
+ms.author: luche
 appliesto: 
-  - Access for Office 365
+  - Access for Microsoft 365
   - Access 2019
 ms.date: 3/31/2022
 ---
@@ -20,7 +20,7 @@ ms.date: 3/31/2022
 
 ## Symptoms
 
-In Microsoft Access for Office 365 and Microsoft Access 2019, you may encounter the following error messages in the Visual Basic for Applications (VBA) ADODB code that refers to the adBigInt data type:
+In Microsoft Access for Microsoft 365 and Microsoft Access 2019, you may encounter the following error messages in the Visual Basic for Applications (VBA) ADODB code that refers to the adBigInt data type:
 
 - The value you entered isn't valid for this field.
 - Too few parameters. Expected *x*.
@@ -28,7 +28,7 @@ In Microsoft Access for Office 365 and Microsoft Access 2019, you may encounter 
 
 ## Cause
 
-This issue occurs because Access for Office 365 and Access 2019 introduced the **Large Number** data type support.
+This issue occurs because Access for Microsoft 365 and Access 2019 introduced the **Large Number** data type support.
 
 In earlier versions of Access, adBigInt values were converted to strings. Now, with the **Large Number** data type support, Access maps adBigInt to a binary value.
 

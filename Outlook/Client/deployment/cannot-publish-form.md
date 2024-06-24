@@ -1,8 +1,8 @@
 ---
 title: Unable to publish a form via Outlook
 description: Fixes an issue in which you can't publish a form through Outlook to any Forms Library.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -16,7 +16,7 @@ appliesto:
   - Outlook 2013
   - Outlook 2016
   - Outlook 2019
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
 search.appverid: MET150
 ms.date: 3/31/2022
 ---

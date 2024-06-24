@@ -1,8 +1,8 @@
 ---
 title: Outlook not responding error or Outlook freezes
 description: Describes an issue that triggers an not responding error or Outlook freezes. Provides a resolution.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -17,7 +17,7 @@ appliesto:
   - Outlook 2013
   - Microsoft Outlook 2010
   - Outlook 2010 with Business Contact Manager
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
 search.appverid: MET150
 ms.date: 3/31/2022
 ---

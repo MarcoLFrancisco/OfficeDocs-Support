@@ -1,8 +1,8 @@
 ---
 title: No permissions to the calendar of a room mailbox
 description: Describes a scenario that prevents a user from accepting a meeting invitation for a room mailbox in Outlook when the delegate is a shared mailbox.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,13 +10,13 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Online
   - CSSTroubleshoot
-ms.reviewer: alinastr
+ms.reviewer: alinastr, v-six
 appliesto: 
   - Exchange Online
   - Outlook 2016
   - Outlook 2013
   - Microsoft Outlook 2010
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
   - Outlook 2019
 search.appverid: MET150
 ms.date: 3/31/2022

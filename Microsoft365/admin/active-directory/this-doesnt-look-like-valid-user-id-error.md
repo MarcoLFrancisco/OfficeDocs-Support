@@ -1,8 +1,8 @@
 ---
 title: This doesn't look like a valid user ID error when a user signs in
 description: Resolves an issue that occurs if the user's UPN in the on-premises Active Directory environment and the user's UPN in Microsoft Azure Active Directory don't match.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -12,15 +12,15 @@ search.appverid:
   - MET150
 appliesto: 
   - Azure Active Directory
-  - Office 365 Identity Management
+  - Microsoft 365
 ms.date: 3/31/2022
 ---
 
-# "This doesn't look like a valid user ID" error when a user tries to sign in to Office 365
+# "This doesn't look like a valid user ID" error when a user tries to sign in to Microsoft 365
 
 ## Problem
 
-When a user tries to sign in to Office 365, the user receives the following error message:
+When a user tries to sign in to Microsoft 365, the user receives the following error message:
 
 > Sorry, that didn't work
 >

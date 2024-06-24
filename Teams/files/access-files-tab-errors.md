@@ -1,8 +1,8 @@
 ---
 title: Can't access the Files tab on a Teams channel
 description: Fixes error messages that you receive when you access the Files tab in a Teams channel.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -72,6 +72,14 @@ This error occurs if the ownership information for the Microsoft 365 group that'
 Assign an owner to the Microsoft 365 group that's associated with the team. For more information, see [Assign a new owner to an orphaned group](https://support.microsoft.com/topic/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
 
 **Note:** Only a Microsoft 365 administrator in your organization can make this change.
+
+## Error: We can't get your files, we're working on getting them back
+
+This error could be a temporary issue.
+
+### Resolution
+
+Try to access the Files tab after some time. If the issue persists for a longer period of time, [run a self-diagnostics tool](#run-a-self-diagnostics-tool) to resolve any known issues.
 
 ### Run a self-diagnostics tool
 

@@ -1,8 +1,8 @@
 ---
 title: Mailboxes aren't automapped to Outlook profile
 description: Discusses an issue in which mailboxes to which your account has full access aren't automapped to your Outlook profile.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -13,7 +13,7 @@ ms.custom:
 search.appverid: 
   - MET150
 appliesto: 
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
   - Outlook 2019
   - Outlook 2016
   - Outlook 2013

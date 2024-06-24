@@ -1,8 +1,8 @@
 ---
 title: Error when adding contacts to contacts folder
 description: Provides a workaround for the issue that you receive an error when you try to add contacts to a contacts folder in Microsoft Outlook.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -13,7 +13,7 @@ ms.custom:
 ms.reviewer: tafa
 appliesto: 
   - Outlook
-  - Office 365
+  - Microsoft 365
 search.appverid: MET150
 ms.date: 3/31/2022
 ---

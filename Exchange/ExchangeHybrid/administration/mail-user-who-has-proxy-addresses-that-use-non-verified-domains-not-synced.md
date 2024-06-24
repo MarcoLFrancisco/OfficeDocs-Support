@@ -1,8 +1,8 @@
 ---
 title: Mail user who has proxy addresses isn't synced
 description: Describes an issue in which a mail user who has proxy addresses that use non-verified domains isn't synced to Exchange Online in an Exchange hybrid deployment.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: jbower, jmartin
+ms.reviewer: jbower, jmartin, v-six
 appliesto: 
   - Exchange Online
   - Exchange Server 2016 Enterprise Edition
@@ -25,13 +25,13 @@ ms.date: 3/31/2022
 # A mail user who has proxy addresses that use non-verified domains isn't synced in an Exchange hybrid deployment
 
 > [!NOTE]
-> The Hybrid Configuration wizard that's included in the Exchange Management Console in Microsoft Exchange Server 2010 is no longer supported. Therefore, you should no longer use the old Hybrid Configuration wizard. Instead, use the Office 365 Hybrid Configuration wizard that's available at [https://aka.ms/HybridWizard](https://aka.ms/hybridwizard). For more information, see [Office 365 Hybrid Configuration wizard for Exchange 2010](https://techcommunity.microsoft.com/t5/exchange-team-blog/office-365-hybrid-configuration-wizard-for-exchange-2010/ba-p/604541).
+> The Hybrid Configuration wizard that's included in the Exchange Management Console in Microsoft Exchange Server 2010 is no longer supported. Therefore, you should no longer use the old Hybrid Configuration wizard. Instead, use the Microsoft 365 Hybrid Configuration wizard that's available at [https://aka.ms/HybridWizard](https://aka.ms/hybridwizard). For more information, see [Microsoft 365 Hybrid Configuration wizard for Exchange 2010](https://techcommunity.microsoft.com/t5/exchange-team-blog/office-365-hybrid-configuration-wizard-for-exchange-2010/ba-p/604541).
 
 _Original KB number:_ &nbsp; 3124148
 
 ## Symptoms
 
-Assume that you have a hybrid deployment of on-premises Exchange Server and Exchange Online in Office 365. You convert a remote user mailbox in Exchange Online to a mail user in Exchange Online. In this scenario, you can no longer sync that mail user to the cloud if that user's proxy addresses are set to use non-verified domains.
+Assume that you have a hybrid deployment of on-premises Exchange Server and Exchange Online in Microsoft 365. You convert a remote user mailbox in Exchange Online to a mail user in Exchange Online. In this scenario, you can no longer sync that mail user to the cloud if that user's proxy addresses are set to use non-verified domains.
 
 ## Cause
 

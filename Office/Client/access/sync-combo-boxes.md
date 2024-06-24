@@ -1,8 +1,8 @@
 ---
 title: Synchronize two combo boxes
 description: Explains that the AfterUpdate property runs an event procedure when you select a category in the first combo box. This sets the RowSource property of the second combo box to make sure that it changes. Both combo boxes are now synchronized.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -12,7 +12,7 @@ ms.custom:
   - CSSTroubleshoot
 ms.reviewer: tado
 appliesto: 
-  - Access for Office 365
+  - Access for Microsoft 365
   - Access 2019
   - Access 2016
   - Access 2013

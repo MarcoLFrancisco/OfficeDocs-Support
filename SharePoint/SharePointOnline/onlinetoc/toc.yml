@@ -1,5 +1,5 @@
 - name: SharePoint Online Troubleshooting
-  href: ../sharepoint-online-welcome.md
+  href: ../sharepoint-online-welcome.yml
   items:
   - name: SharePoint troubleshooting content updates
     href: ../sharepoint-troubleshoot-content-updates.md
@@ -7,10 +7,12 @@
     items:
     - name: '"Access denied" error for PIM-managed accounts in SharePoint or OneDrive admin center'
       href: ../administration/access-denied-to-pim-user-accounts.md
-    - name: '"Access Denied" and "You need permission to access this site" errors'
+    - name: '"Access Denied" or permission errors'
       href: ../administration/access-denied-or-need-permission-error-sharepoint-online-or-onedrive-for-business.md
     - name: '"API access" does not appear in the Modern admin center'
       href: ../administration/api-access-does-not-appear.md
+    - name: '"Could not connect to SharePoint Online" error'
+      href: ../administration/connect-sposervice-error.md
     - name: Temporary changes in process schedule for SharePoint Online services 
       href: ../administration/temporary-adjustments-in-sharepoint-online.md
     - name: '"Sync to Outlook" button and "Task" link are missing'
@@ -23,7 +25,7 @@
       href: ../administration/automatic-exif-property-import-unsupported.md
     - name: Create a default Site collection Term Set if none is present
       href: ../administration/create-default-site-term-set.md
-    - name: Creation of team site from SharePoint Home doesn’t complete
+    - name: Creation of team site from SharePoint Home doesn't complete
       href: ../administration/team-site-creation-stops.md
     - name: Deleting a content type from the SharePoint Content Type Hub
       href: ../administration/deleting-content-type-from-hub.md
@@ -53,16 +55,14 @@
       href: ../administration/information-about-uls-log-access.md
     - name: Presence information doesn't show
       href: ../administration/presence-information-fails-showing.md
-    - name: Profile picture not showing in SharePoint Online
+    - name: Profile picture not shown in SharePoint Online
       href: ../administration/profile-picture-not-showing.md
     - name: Remove assembly reference from Sandbox solution
       href: ../../SharePointServer/administration/change-sandbox-solution.md?toc=/SharePoint/troubleshoot/onlinetoc/toc.json&bc=/SharePoint/troubleshoot/breadcrumb/toc.json
-    - name: SharePoint Online out of storage spacet
+    - name: SharePoint Online out of storage space
       href: ../administration/out-of-storage.md
     - name: Third-party tools changes support
-      href: ../administration/third-party-tools-change-support.md
-    - name: Troubleshoot mapped network drives
-      href: ../administration/troubleshoot-mapped-network-drives.md
+      href: ../administration/third-party-tools-change-support.md    
     - name: Troubleshoot site collection upgrade issues
       href: ../administration/troubleshoot-site-collection-upgrade-issue.md
     - name: Unable to delete items in SharePoint and OneDrive
@@ -71,6 +71,8 @@
       href: ../administration/content-type-gallery-error.md
     - name: Uncompiled audiences are present in SharePoint Online
       href: ../administration/uncompiled-audiences-are-present-in-office-365-for-enterprises.md
+    - name: Unable to access SharePoint Online
+      href: ../administration/sharepoint-online-inaccessible.md  
     - name: Using relative URLs isn't supported
       href: ../lists-and-libraries/relative-url-across-site-collection-not-supported.md
   - name: Diagnostics
@@ -115,6 +117,8 @@
       href: ../lists-and-libraries/film-reel-icon-video-content.md
     - name: Can't check in multiple items in a document library
       href: ../lists-and-libraries/cannot-check-in-multiple-items.md
+    - name: Can't delete Teams channel folders
+      href: ../lists-and-libraries/deleted-teams-standard-channel-folder-deletion-fails.md
     - name: Can't open documents in a local client from Chrome
       href: ../../SharePointServer/lists-and-libraries/cant-open-sp-documents-from-chrome.md?toc=/SharePoint/troubleshoot/onlinetoc/toc.json&bc=/SharePoint/troubleshoot/breadcrumb/toc.json
     - name: Can't share/break inheritance of a folder, list, or library
@@ -155,7 +159,7 @@
       href: ../lists-and-libraries/dragging-files-using-web-browser.md
     - name: Issue when creating a calendar overlay
       href: ../lists-and-libraries/fails-creating-calendar-overlay.md
-    - name: Issue when creating documents in Office 365 portal
+    - name: Issue when creating documents in Microsoft 365 portal
       href: ../lists-and-libraries/o365-portal-fails-creating-documents.md
     - name: Issue when deleting an online list item attachment
       href: ../lists-and-libraries/list-item-fails-saving-same-attachment.md
@@ -197,10 +201,14 @@
       href: ../lists-and-libraries/template-generated-list-incorrect-data.md
     - name: The URL <file name> is invalid when uploading a file
       href: ../lists-and-libraries/url-invalid-upload-file-to-list.md
-  - name: Migration Tool
+    - name: Troubleshoot mapped network drives
+      href: ../lists-and-libraries/troubleshoot-mapped-network-drives.md
+  - name: Migration
     items:
+    - name: Error "Service is not available" when using the Stream migration tool
+      href: ../migration/service-not-available-stream-migration-tool.md
     - name: Information about manual migration
-      href: ../migration-tool/content-manual-migration.md
+      href: ../migration/content-manual-migration.md
   - name: Performance
     items:
     - name: Performance troubleshooter for SharePoint Online
@@ -211,6 +219,8 @@
     items:
     - name: '"Not all terms were imported successfully" error with importing term set'
       href: ../search/troubleshoot-error-when-importing-a-term-set.md
+    - name: Classic site collection search usage reports
+      href: ../search/classic-site-collection-search-usage-reports.md  
     - name: Document preview and content type icon aren't displayed
       href: ../Search/content-type-icon-not-display.md
     - name: Items are missing from online search results
@@ -225,7 +235,7 @@
       href: ../Search/search-results-missing.md
     - name: Search results aren't returned
       href: ../Search/search-results-not-return.md
-    - name: Search results don't appear for group owners after creating a new Office 365 group
+    - name: Search results don't appear for group owners after creating a new Microsoft 365 group
       href: ../search/search-results-dont-appear-for-group-owners.md
   - name: Security
     items:
@@ -247,7 +257,9 @@
     items:
     - name: '"Access Denied due to organizational policies" error'
       href: ../sharing-and-permissions/access-denied-due-to-org-policies.md
-    - name: '"Error 403 Forbidden" in OneDrive or SharePoints'
+    - name: Access Denied error when accessing a shared folder
+      href: ../sharing-and-permissions/access-denied-shared-folder.md
+    - name: '"Error 403 Forbidden" in OneDrive or SharePoint'
       href: ../sharing-and-permissions/error-403-forbidden.md
     - name: '"Everyone except external users" group is removed'
       href: ../sharing-and-permissions/everyone-except-external-user-removed.md
@@ -273,6 +285,8 @@
       href: ../sharing-and-permissions/error-when-external-user-accepts-an-invitation-by-using-another-account.md
     - name: External users can't find users in people picker
       href: ../sharing-and-permissions/people-picker-fails-finding-users.md
+    - name: Fix site user ID mismatch in SharePoint or OneDrive
+      href: ../sharing-and-permissions/fix-site-user-id-mismatch.md
     - name: Issue after accepting a resource invite
       href: ../sharing-and-permissions/unable-to-complete-request.md
     - name: Issue when external users click links to shared resource
@@ -288,20 +302,20 @@
     - name: Required permissions for managing Secure Store Service
       href: ../sharing-and-permissions/managing-secure-store-service-app-permissions.md
     - name: Sharing options are greyed out when sharing from SharePoint Online or OneDrive
-      href: ../administration/sharing-options-grayed-out-when-sharing-from-sharepoint-online-or-onedrive.md
+      href: ../sharing-and-permissions/sharing-options-grayed-out-when-sharing-from-sharepoint-online-or-onedrive.md
     - name: SSL certificate authentication issues 
-      href: ../sharing-and-permissions/ssl-certificate-authentication.md
-    - name: Unable to access SharePoint Online
-      href: ../sharing-and-permissions/sharepoint-online-inaccessible.md
+      href: ../sharing-and-permissions/ssl-certificate-authentication.md    
     - name: Unable to reach the server when sharing files
       href: ../sharing-and-permissions/share-file-unable-reach-server.md
     - name: You are not allowed to create team sites
       href: ../sharing-and-permissions/issue-when-you-click-new-site-on-followed-sites-page.md
   - name: Sites
     items:
+    - name: '"Header Field Too Long" error'
+      href: ../Sites/header-field-too-long-error.md
     - name: '"HTTP request is unauthorized" error'
       href: ../Sites/calendar-overlay-unsupported.md
-    - name: '"This site cant be reached" and ERR_INVALID_RESPONSE error when accessing SharePoint site'
+    - name: '"This site cannot be reached" and ERR_INVALID_RESPONSE error when accessing SharePoint site'
       href: ../Sites/err-invalid-response-accessing-sharepoint-site.md
     - name: '"You do not have an e-mail address" error with creating an online alert'
       href: ../sites/do-not-have-an-e-mail-address-when-create-an-alert.md
@@ -314,15 +328,13 @@
     - name: Can't find specified web in the given URL
       href: ../Sites/cannot-find-specified-web-given-url.md
     - name: Can't permanently delete a site when it's connected to a Microsoft 365 group
-      href: ../Sites/cannot-permanently-delete-site.md
-    - name: Classic site collection search usage reports
-      href: ../Sites/classic-site-collection-search-usage-reports.md
-    - name: Customizations of the top navigation bar is reverted
+      href: ../Sites/cannot-permanently-delete-site.md    
+    - name: Customizations of the top navigation bar are reverted
       href: ../Sites/customizations-revert-to-default-settings.md
     - name: Error when trying to change site logo on O365 group SharePoint site
       href: ../sites/error-when-changing-o365-site-logo.md
     - name: Error when trying to delete a SharePoint site
-      href: ../sites/compliance-policy-blocking-site-deletion.md
+      href: ../sites/compliance-policy-blocking-site-deletion.md    
     - name: Issue when activating Announcement Tiles feature
       href: ../Sites/announcement-tiles-not-supported.md
     - name: Issue when creating an online site
@@ -337,11 +349,11 @@
       href: ../../SharePointServer/lists-and-libraries/modified-date-site-contents-not-accurate.md?toc=/SharePoint/troubleshoot/onlinetoc/toc.json&bc=/SharePoint/troubleshoot/breadcrumb/toc.json
     - name: Notifications not received by group connected to SharePoint site
       href: ../sites/notification-email-not-received.md
-    - name: Public websites is discontinued
+    - name: Public websites are discontinued
       href: ../Sites/public-websites-be-discontinued.md
     - name: Rich Text fields don't respond
       href: ../Sites/rich-text-fields-fails-responding.md
-    - name: SharePoint Online alert notifications isn't received
+    - name: SharePoint Online alert notifications aren't received
       href: ../Sites/no-alert-notifications.md
     - name: SharePoint or OneDrive read-only error messages
       href: ../Sites/site-is-read-only.md

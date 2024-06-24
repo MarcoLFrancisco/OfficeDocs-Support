@@ -1,8 +1,8 @@
 ---
 title: Meeting requests are added to resource delegate's calendar
 description: Describes a scenario in which meeting requests sent to a resource mailbox in on-premises are added to a resource delegate's calendar migrated to cloud.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Online
   - CSSTroubleshoot
-ms.reviewer: gabesl
+ms.reviewer: gabesl, v-six
 appliesto: 
   - Exchange Online
 search.appverid: MET150
@@ -22,7 +22,7 @@ _Original KB number:_ &nbsp; 4036518
 
 ## Symptoms
 
-After a user's mailbox is migrated to Microsoft Office 365, they receive meeting requests from an on-premises room mailbox of which the user is a delegate, as expected.
+After a user's mailbox is migrated to Microsoft 365, they receive meeting requests from an on-premises room mailbox of which the user is a delegate, as expected.
 
 However, these meetings show on the user's calendar directly as if they were added as an attendee by the organizer. Also, any attempt to accept or decline the request comes directly from the user, instead of from the resource mailbox.
 

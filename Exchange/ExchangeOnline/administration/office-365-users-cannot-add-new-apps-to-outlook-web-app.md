@@ -1,8 +1,8 @@
 ---
 title: Cannot add new apps to Outlook Web App
 description: Describes an issue that occurs because the icon to add a new app from the Office Marketplace is unavailable.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Online
   - CSSTroubleshoot
-ms.reviewer: rrajan
+ms.reviewer: rrajan, v-six
 appliesto: 
   - Exchange Online
 search.appverid: MET150
 ms.date: 3/31/2022
 ---
-# Office 365 users can't add new apps to Outlook Web App
+# Microsoft 365 users can't add new apps to Outlook Web App
 
 _Original KB number:_ &nbsp; 3016787
 
 ## Symptoms
 
-When a Microsoft Office 365 user tries to install a new app for Microsoft Outlook Web App on the Installed App page, the **New** icon to add an app from the Microsoft Office Marketplace is not available. Therefore, the user can't add the app.
+When a Microsoft 365 user tries to install a new app for Microsoft Outlook Web App on the Installed App page, the **New** icon to add an app from the Microsoft Office Marketplace is not available. Therefore, the user can't add the app.
 
 ## Cause
 
@@ -35,7 +35,7 @@ The My Marketplace Apps role is not enabled in the role-assignment policy that's
 
 Update the role assignment policy to enable the My Marketplace Apps role for the user. To do this, follow these steps:
 
-1. Sign in to Office 365 as an admin.
+1. Sign in to Microsoft 365 as an admin.
 2. Select **Admin**, and then select **Exchange**.
 3. Select **permissions**, and then select **user roles**.
 4. Double-click **Default Role Assignment Policy**, or double-click the custom policy that's assigned to the user (as appropriate for your situation).

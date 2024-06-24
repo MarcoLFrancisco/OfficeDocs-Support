@@ -1,5 +1,5 @@
 - name: Outlook for Windows Troubleshooting
-  href: ../outlook-client-welcome.md
+  href: ../outlook-client-welcome.yml
   items:
     - name: Authentication
       items:
@@ -7,14 +7,16 @@
           href: ../authentication/continually-prompts-password-office-365.md
         - name: Disconnected after enabling modern authentication
           href: ../authentication/outlook-shows-disconnected-after-enabling-modern-authentication.md
-        - name: Doesn't use Modern Authentication to connect Office 365
+        - name: Doesn't use Modern Authentication to connect Microsoft 365
           href: ../authentication/outlook-prompt-password-modern-authentication-enabled.md
         - name: Force Outlook to resolve proxy addresses and custom properties
           href: ../authentication/how-to-force-outlook-to-resolve-proxy-addresses-and-custom-properties.md
         - name: Looking for credential tiles message occurs
           href: ../authentication/looking-for-credential-tiles-message.md
-        - name: O365 credential prompts with AuthenticationService value
+        - name: Microsoft 365 credential prompts with AuthenticationService value
           href: ../authentication/o365-credential-prompts-with-authenticationservice.md
+        - name: Outlook doesn't connect when using Modern authentication
+          href: /exchange/troubleshoot/administration/outlook-does-not-connect-with-modern-authentication?context=/outlook/troubleshoot/context/client-context
         - name: Outlook prompts for credentials
           href: ../authentication/outlook-prompts-credentials.md
         - name: Outlook asks for password repeatedly when using MAPI over HTTP
@@ -61,6 +63,8 @@
           href: ../calendaring/cannot-add-an-internet-calendar.md
         - name: Configure rooms and workspaces for Room Finder
           href: ../calendaring/configure-room-finder-rooms-workspaces.md
+        - name: Configure Teams meeting links to open in Teams desktop app
+          href: ../calendaring/open-teams-meetings-in-desktop-app.md
         - name: Create and book a workspace in Outlook
           href: /exchange/troubleshoot/outlook-issues/create-book-workspace-outlook?context=/outlook/troubleshoot/context/client-context
         - name: Create online meeting failed error
@@ -81,8 +85,6 @@
           href: ../calendaring/outlook-cannot-set-oof-status-view-busy-free.md
         - name: Hashed lines shown in scheduling assistant
           href: ../calendaring/hashed-lines-shown-in-scheduling-assistant.md
-        - name: How to open a shared calendar
-          href: ../calendaring/how-to-open-shared-calendar.md
         - name: How to share calendar and contacts
           href: ../calendaring/how-to-share-calendar-and-contacts.md
         - name: How to control Outlook recurrence patterns by using Group Policy
@@ -115,10 +117,14 @@
           href: ../calendaring/outlook-not-showing-more-than-12-months-of-free-busy-data.md
         - name: No available rooms for meetings outside working hours
           href: ../calendaring/no-available-rooms-for-meeting-outside-working-hours.md
+        - name: No event reminders for automapped or additional mailboxes
+          href: ../calendaring/no-event-reminders-for-automapped-additional-mailboxes.md
         - name: Organizer's meeting outdated after delegate sends update
           href: ../calendaring/organizers-meeting-outdated-after-delegate-sends-update.md
         - name: Outlook crashes when opening a meeting that contains Lync meeting details
           href: ../calendaring/outlook-crashes-when-open-meeting-contains-lync-meeting-details.md
+        - name: Outlook doesn't show a reminder for a Google Calendar event invitation
+          href: ../calendaring/no-meeting-reminder-for-google-calendar-invites.md
         - name: Outlook or OWA doesn't show full details of private appointments
           href: ../calendaring/outlook-or-owa-not-shows-full-details-of-private-appointments.md
         - name: Resolve Teams Meeting add-in issues
@@ -131,6 +137,10 @@
           href: ../calendaring/scan-outlook-calendar-using-sara.md
         - name: Send Update is missing when copying meetings
           href: ../calendaring/send-update-missing-copy-meeting.md
+        - name: Share a calendar or open a shared calendar
+          href: ../calendaring/how-to-open-shared-calendar.md          
+        - name: Shared calendar in delegate's Online Archive
+          href: /exchange/troubleshoot/calendars/shared-calendar-in-delegate-online-archive?context=/outlook/troubleshoot/context/client-context
         - name: Specific users can't receive meeting requests
           href: ../calendaring/specific-users-not-receive-meeting-requests.md
         - name: The Delegate feature in mixed versions of Outlook
@@ -211,14 +221,16 @@
           href: ../contacts/outlook-displays-incorrect-search-results-gal.md
         - name: How to hide columns in Address Book
           href: ../contacts/how-to-hide-columns-in-address-book.md
-        - name: Information about the Outlook AutoComplete list
-          href: ../contacts/information-about-the-outlook-autocomplete-list.md
+        - name: Inconsistent performance with contacts
+          href: /exchange/troubleshoot/groups-and-distribution-lists/inconsistent-performance-with-contacts?context=/outlook/troubleshoot/context/client-context
         - name: LinkedIn is no longer available in Outlook Social Connector
           href: ../contacts/linkedin-is-no-longer-available-in-outlook-social-connector.md
         - name: No permission error when adding contacts
           href: ../contacts/you-donnot-have-permission-to-create-an-entry-error.md
         - name: No Offline Address Book is downloaded
           href: ../contacts/error-0x80070057-no-offline-address-book-download.md
+        - name: The Outlook AutoComplete list
+          href: ../contacts/information-about-the-outlook-autocomplete-list.md          
         - name: Unknown is displayed in group name when expanding
           href: ../contacts/cannot-expand-nested-contact-groups-unknown-shown.md
     - name: Data Files
@@ -321,6 +333,8 @@
           href: ../email-management/emails-that-you-forward-not-saved-in-sent-items.md
         - name: How to emulate Out of Office Assistant
           href: ../email-management/how-to-emulate-the-out-of-office-assistant-in-micr.md
+        - name: Inbox rule doesn't appear in Outlook client
+          href: ../email-management/inbox-rule-does-not-appear-in-outlook-client.md
         - name: Issues with OOF replies
           href: /exchange/troubleshoot/send-emails/understand-troubleshoot-oof-replies
         - name: Messages move from the Inbox to a renamed folder
@@ -385,12 +399,14 @@
           href: ../junk-email/outlook-error-over-junk-emial-list-limit.md
     - name: Message Body
       items:
+        - name: Accept and Decline buttons missing in a task request
+          href: ../message-body/accept-decline-buttons-missing-in-task-request.md
+        - name: Actionable message doesn't automatically refresh
+          href: ../message-body/actionable-message-in-reading-pane-not-refreshed.md
         - name: Attachment doesn't show in a Plain Text message
           href: ../message-body/attachment-does-not-appear-in-plain-text-message.md
         - name: Attachment size exceeds the allowable limit error
           href: ../message-body/attachment-size-exceeds-the-allowable-limit-error.md
-        - name: Document is inserted as icon with hyperlink into a message
-          href: ../message-body/document-inserted-as-icon-with-hyperlink.md
         - name: HTTPS linked images in HTML emails display the red X
           href: ../message-body/https-linked-images-in-html-emails-show-red-x.md
         - name: Issues with attachments
@@ -403,7 +419,7 @@
           href: ../message-body/outside-messages-not-include-email-signature.md
         - name: Multiple slashes are changed to one slash
           href: ../message-body/url-multiple-slashes-become-single-slash.md
-        - name: No subject or content in automatically emails
+        - name: No subject or content in automatic emails
           href: ../message-body/no-subject-content-in-automatically-email.md
         - name: Pictures are not shown but displayed as red X
           href: ../message-body/pictures-not-displayed-and-shown-as-red-x.md
@@ -417,6 +433,8 @@
           href: ../message-body/the-linked-image-cannot-be-displayed-error.md
         - name: User info in @mentions doesn't resolve
           href: /office/troubleshoot/excel/mentions-not-resolve-user-information?context=/outlook/troubleshoot/context/client-context
+        - name: View emails and web links side-by-side with Outlook and Microsoft Edge
+          href: ../message-body/view-emails-and-web-links-in-browser.md
         - name: Yu Gothic font characters are displayed incorrectly
           href: ../message-body/yu-gothic-font-characters-displayed-incorrectly.md
     - name: Performance
@@ -462,7 +480,7 @@
         - name: Information about the Sniffer functionality
           href: ../performance/information-about-outlook-sniffer-functionality.md
         - name: Install SaRA from network share
-          href: /office365/troubleshoot/installation/install-sara-from-network-share?context=/outlook/troubleshoot/context/client-context
+          href: /microsoft-365/troubleshoot/installation/install-sara-from-network-share?context=/outlook/troubleshoot/context/client-context
         - name: Insufficient memory to display a folder
           href: ../performance/outlook-folder-fails-displaying.md
         - name: Insufficient memory errors and sent mail stuck
@@ -495,9 +513,9 @@
           href: ../performance/outlook-shutdown-slowly-if-using-requireshutdownnotification.md
         - name: Outlook.exe.log in %Temp% consumes too much disk space
           href: ../performance/outlook-exe-log-file-in-temp-folder-consumes-too-much-space.md
-        - name: Performance is slow in the Office 365
+        - name: Performance is slow in Microsoft 365
           href: ../performance/outlook-performance-is-slow-in-office-365.md
-        - name: Performance issues for too many items or folders
+        - name: Performance issues with too many items or folders
           href: ../performance/performance-issues-if-too-many-items-or-folders.md
         - name: Performance issues if UseLowPriorityConfiguration is set to 0
           href: ../performance/performance-issues-if-uselowpriorityconfiguration-is-0.md
@@ -533,7 +551,7 @@
           href: ../profiles-and-accounts/error-when-subscribing-to-rss-feed-that-needs-authentication.md
         - name: Can't copy an appointment to an Outlook.com folder
           href: ../profiles-and-accounts/error-copy-appointment-to-outlook-com-folder.md
-        - name: Can't set up Office 365 account
+        - name: Can't set up Microsoft 365 account
           href: ../profiles-and-accounts/cannot-set-up-office-365-account-outlook.md
         - name: Can't use EAS to connect Outlook to Exchange
           href: ../profiles-and-accounts/outlook-cannot-use-activesync-connect-exchange.md
@@ -561,6 +579,8 @@
           href: ../profiles-and-accounts/full-access-mailbox-not-automapped-outlook-profile.md
         - name: Need a new app to open this osf-roaming.16 message
           href: ../profiles-and-accounts/you-ll-need-a-new-app-to-open-this-osf-roaming-16.md
+        - name: Outlook can't set up a Microsoft 365 account
+          href: /exchange/troubleshoot/outlook-issues/outlook-cannot-setup-microsoft-365-account?context=/outlook/troubleshoot/context/client-context
         - name: Outlook crashes when sending emails with a nonexistent delivery location setting
           href: ../profiles-and-accounts/outlook-crashes-when-sending-emails.md
         - name: Outlook displays error message about information service
@@ -591,6 +611,8 @@
           href: ../security/dlp-policy-tips-for-pdf-attachments-not-displayed.md
         - name: Document attachments open in Protected View
           href: ../security/office-document-attachments-open-in-protected-view.md
+        - name: External recipient can't open encrypted email
+          href: ../security/external-recipient-can't-open-encrypted-email.md
         - name: How to block additional attachment file name extensions
           href: ../security/how-to-block-additional-attachment-file-name-extensions.md
         - name: How to turn off e-mail matching for certificates
@@ -629,6 +651,8 @@
           href: ../synchronization/synchronization-monitor-improvements.md
     - name: User Interface
       items:
+        - name: Access public folders in Outlook for Windows
+          href: ../user-interface/navigate-to-public-folders-in-new-outlook.md      
         - name: Add-ins are registered under \Wow6432Node
           href: ../user-interface/addins-are-registered-under-wow6432node.md
         - name: Apps for Outlook 2013 can't activate in email
@@ -649,7 +673,7 @@
           href: ../user-interface/cannot-delete-default-outlook-folders.md
         - name: Can't import an XLS or CSV file into the Hebrew version
           href: ../user-interface/cannot-map-custom-fields.md
-        - name: Can't open mutiple Excel attachements
+        - name: Can't open multiple Excel attachments
           href: ../user-interface/only-two-excel-attachments-can-open.md
         - name: Can't open Outlook items from Windows Search results
           href: ../user-interface/cannot-open-outlook-items-from-windows-search-results.md
@@ -693,8 +717,6 @@
           href: ../user-interface/default-office-addin-icon-displayed-outlook-ribbon.md
         - name: Default folder is missing
           href: ../user-interface/default-folder-is-missing.md
-        - name: Delegates page is not available error if setting a delegate
-          href: ../user-interface/the-delegates-page-is-not-available-error-when-setting-delegate.md
         - name: Deleted recipients still appear
           href: ../user-interface/deleted-recipients-still-appear.md
         - name: Emails don't show in Cached mode Inbox after synchronized
@@ -749,7 +771,7 @@
           href: ../user-interface/custom-mapi-solutions-not-working.md
         - name: MAPI is the only way to change profiles
           href: ../user-interface/mapi-is-the-only-way-to-change-profiles.md
-        - name: Messages occur if connecting to office 365 email accounts
+        - name: Messages occur if connecting to Microsoft 365 email accounts
           href: ../user-interface/messages-occur-when-connecting-to-office-365-email-account.md
         - name: Missing registry data causes problems with object model
           href: ../user-interface/missing-registry-information-causes-problems-with-object-model.md
@@ -769,7 +791,7 @@
           href: ../user-interface/only-subset-items-synchronized.md
         - name: OpenSharedItem holds file handle on signed .msg files
           href: ../user-interface/openshareditem-holds-file-handle-on-signed-msg-files.md
-        - name: Out of Office doesn't function correctly in Office 365
+        - name: Out of Office doesn't function correctly in Microsoft 365
           href: ../user-interface/out-of-office-feature-not-working-correctly.md
         - name: Outlook crashes when you call IMAPIProp::GetProps
           href: ../user-interface/stale-mapiobject-causes-outlook-crashes.md

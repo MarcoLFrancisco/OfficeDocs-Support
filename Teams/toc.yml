@@ -50,7 +50,7 @@
     - name: A channel can't be recreated after deletion
       href: ./channels/channel-cannot-be-recreated-after-deletion.md
     - name: Channel notifications settings don't update
-      href: ./channels/notifications-cannot-manage.md
+      href: ./channels/notifications-cannot-manage.md    
     - name: Logon re-enabled user doesn't see previous joined teams
       href: ./channels/logon-reenabled-user-not-see-previous-joined-teams.md
   - name: Conferencing
@@ -107,12 +107,14 @@
       href: ./files/access-files-tab-errors.md
     - name: Can't open files in a chat window
       href: ./files/do-not-have-access-to-this-file-teams.md
+    - name: Can't share files in a large group chat or meeting chat
+      href: ./files/cannot-share-files-in-large-chat.md  
     - name: Desktop app option is missing
       href: ./files/desktop-app-option-missing.md
     - name: Downloaded documents open in protected view
       href: ./files/download-documents-open-in-protected-view.md
     - name: Guest user can't access Files tab
-      href: ./files/guests-cannot-access-files.md
+      href: ./files/guests-cannot-access-files.md   
   - name: Forms
     items:
     - name: Can't send or respond a poll
@@ -131,10 +133,16 @@
       href: ./teams-im-presence/deleted-messages-send-notifications-with-link.md
     - name: Issues with presence status in Outlook
       href: ./teams-im-presence/issues-with-presence-in-outlook.md
+    - name: Messages are unexpectedly deleted by retention policies
+      href: ./teams-im-presence/messages-unexpectedly-deleted-retention-policy.md 
   - name: Meetings
     items:
+    - name: External participants are blocked from joining meetings
+      href: ./meetings/external-participants-join-meeting-blocked.md
     - name: External users appear as Unknown
       href: ./meetings/external-user-shown-as-unknown.md
+    - name: Fix video display lag 
+      href: ./meetings/fix-choppy-video.md            
     - name: Issues with meeting chat
       href: ./meetings/meeting-chat-issues.md
     - name: Issues with meeting recordings
@@ -143,6 +151,8 @@
       href: ./meetings/issues-with-webinars.md
     - name: Resolve Teams Meeting add-in issues
       href: ./meetings/resolve-teams-meeting-add-in-issues.md
+    - name: Teams meeting features for shared mailboxes
+      href: ./meetings/teams-meeting-with-shared-mailboxes.md
   - name: Mobile
     items:
     - name: A website with Conditional Access doesn't display when viewed on the Website tab 
@@ -166,13 +176,17 @@
     - name: Temporary change to file size download limit in OneNote
       href: /office/troubleshoot/onenote/temp-change-onenote-file-size-download?context=/MicrosoftTeams/troubleshoot/context/context
   - name: Phone System
-    items: 
+    items:
+    - name: Issues when using SIP devices
+      href: ./phone-system/sip-gateway-issues.md
     - name: Dial Plans
       items: 
       - name: Errors when trying to manage dial plans
         href: ./phone-system/dial-plans/errors-managing-dial-plans.md
     - name: Direct Routing
       items:
+      - name: Diagnose issues with Direct Routing
+        href: ./phone-system/direct-routing/diagnose-direct-routing-issues.md
       - name: Issues with call transfers
         href: ./phone-system/direct-routing/issues-with-call-transfers.md
       - name: Issues with LMO
@@ -181,6 +195,34 @@
         href: ./phone-system/direct-routing/issues-with-outbound-calls.md
       - name: Issues with SBC connectivity
         href: ./phone-system/direct-routing/sip-options-tls-certificate-issues.md
+      - name: Microsoft and SIP response codes
+        items:
+        - name: Microsoft and SIP response codes
+          href: ./phone-system/direct-routing/microsoft-sip-response-codes.md
+        - name: SIP response code 403
+          href: ./phone-system/direct-routing/microsoft-sip-response-codes-403.md
+        - name: SIP response code 404
+          href: ./phone-system/direct-routing/microsoft-sip-response-codes-404.md
+        - name: SIP response code 408
+          href: ./phone-system/direct-routing/microsoft-sip-response-codes-408.md
+        - name: SIP response code 410
+          href: ./phone-system/direct-routing/microsoft-sip-response-codes-410.md
+        - name: SIP response code 412
+          href: ./phone-system/direct-routing/microsoft-sip-response-codes-412.md
+        - name: SIP response code 480
+          href: ./phone-system/direct-routing/microsoft-sip-response-codes-480.md
+        - name: SIP response code 484
+          href: ./phone-system/direct-routing/microsoft-sip-response-codes-484.md
+        - name: SIP response code 486
+          href: ./phone-system/direct-routing/microsoft-sip-response-codes-486.md
+        - name: SIP response code 488
+          href: ./phone-system/direct-routing/microsoft-sip-response-codes-488.md
+        - name: SIP response code 500
+          href: ./phone-system/direct-routing/microsoft-sip-response-codes-500.md
+        - name: SIP response code 503
+          href: ./phone-system/direct-routing/microsoft-sip-response-codes-503.md
+        - name: SIP response code 504
+          href: ./phone-system/direct-routing/microsoft-sip-response-codes-504.md
   - name: Provisioning
     items:
     - name: Can't create a team 
@@ -233,14 +275,54 @@
     items:
     - name: Collect Android Teams device logs
       href: ./teams-rooms-and-devices/collect-device-logs.md
-    - name: Issues when using SIP devices
-      href: ./teams-rooms-and-devices/sip-gateway-issues.md
+    - name: Conditional Access-related issues on Teams Android devices
+      href: ./teams-rooms-and-devices/teams-android-devices-conditional-access-issues.md
     - name: Known issues
       href: ./teams-rooms-and-devices/rooms-known-issues.md
-    - name: MTR devices can't fetch calendar
-      href: ./teams-rooms-and-devices/mtr-device-cannot-fetch-calendar.md
+    - name: On-screen keyboard size is reduced on some devices
+      href: ./teams-rooms-and-devices/teams-rooms-device-keyboard-size-reduced.md
     - name: Signed out of Teams Android devices
       href: ./teams-rooms-and-devices/signed-out-of-teams-android-devices.md
+    - name: Teams Rooms app doesn't start automatically after updates
+      href: ./teams-rooms-and-devices/teams-rooms-not-auto-start-after-windows-updates.md
+    - name: Teams Rooms devices can't fetch calendar
+      href: ./teams-rooms-and-devices/mtr-device-cannot-fetch-calendar.md
+    - name: Teams Rooms Pro Management
+      items:
+      - name: Get support for Teams Rooms Pro Management
+        href: ./teams-rooms-and-devices/get-support-teams-rooms-pro-management.md
+      - name: Black or blank screen or no system response
+        href: ./teams-rooms-and-devices/black-blank-screen.md
+      - name: Bluetooth disabled status is Unhealthy
+        href: ./teams-rooms-and-devices/bluetooth-disabled-status-unhealthy.md
+      - name: Camera status is unhealthy
+        href: ./teams-rooms-and-devices/camera-status-unhealthy.md
+      - name: CPU performance limited status is Unhealthy
+        href: ./teams-rooms-and-devices/cpu-performance-limited-status-unhealthy.md
+      - name: Default Credentials status is unhealthy
+        href: ./teams-rooms-and-devices/default-credentials-status-unhealthy.md
+      - name: Disk Space status is unhealthy
+        href: ./teams-rooms-and-devices/disk-space-status-unhealthy.md
+      - name: Display status is unhealthy
+        href: ./teams-rooms-and-devices/display-status-unhealthy.md
+      - name: HDMI ingest status is unhealthy
+        href: ./teams-rooms-and-devices/hdmi-ingest-status-unhealthy.md
+      - name: Meeting app status is unhealthy
+        href: ./teams-rooms-and-devices/meeting-app-status-unhealthy.md  
+      - name: Microphone or speaker status is unhealthy
+        href: ./teams-rooms-and-devices/microphone-speaker-status-unhealthy.md
+      - name: Monitored or Offline status is Unhealthy
+        href: ./teams-rooms-and-devices/monitored-offline-status-unhealthy.md  
+      - name: OS Edition status is Unhealthy
+        href: ./teams-rooms-and-devices/os-edition-status-unhealthy.md
+      - name: USB Peripheral Power Drain status is Unhealthy
+        href: ./teams-rooms-and-devices/usb-peripheral-power-drain-status-unhealthy.md
+      - name: USB Selective Suspend status is Unhealthy
+        href: ./teams-rooms-and-devices/usb-selective-suspend-status-unhealthy.md
+      - name: Resolve Teams Rooms resource account sign-in issues
+        href: ./teams-rooms-and-devices/teams-rooms-resource-account-sign-in-issues.md
+      - name: Resolve Windows Update issues on Teams Rooms Pro devices
+        href: ./teams-rooms-and-devices/teams-rooms-device-windows-update-issues.md
   - name: Teams on Linux
     items: 
     - name: Known issues on Linux
@@ -251,6 +333,8 @@
       href: ./teams-on-mac/virtual-camera-doesnt-work-macos.md
   - name: Teams on Windows
     items:
+    - name: Error when calling from a contact card
+      href: ./teams-on-windows/error-call-from-contact-card.md
     - name: Teams remembered as XBox game
       href: ./teams-on-windows/performance-affected-when-teams-remembered-as-game.md
   - name: Third-party programs

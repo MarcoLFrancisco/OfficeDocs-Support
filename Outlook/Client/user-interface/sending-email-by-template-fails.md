@@ -1,8 +1,8 @@
 ---
 title: Using a template file to send emails fails
 description: Describes an issue where email messages aren't received when you use a template file in Outlook 2010. Provides workarounds.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -28,7 +28,7 @@ _Original KB number:_ &nbsp; 3154038
 
 Consider the following scenario:
 
-- You use Microsoft Outlook 2010 to connect to a mailbox in Exchange Server 2013 or a later version or to Exchange Online in Office 365.
+- You use Microsoft Outlook 2010 to connect to a mailbox in Exchange Server 2013 or a later version or to Exchange Online in Microsoft 365.
 - Outlook 2010 is configured in online mode, and it uses a .pst file as the default delivery location.
 - You send email messages by using an OFT (.oft) file.
 

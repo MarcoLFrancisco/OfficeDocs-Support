@@ -1,8 +1,8 @@
 ---
 title: The pipeline has been stopped error
 description: Describes that you receive a System.Management.Automation.PipelineStoppedException pipeline has been stopped error when you run the Hybrid Configuration wizard.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: scotro
+ms.reviewer: scotro, v-six
 appliesto: 
   - Exchange Online
   - Exchange Server 2013 Enterprise
@@ -24,7 +24,7 @@ _Original KB number:_ &nbsp; 3067998
 
 ## Symptoms
 
-You want to set up a hybrid deployment between your on-premises Microsoft Exchange Server organization and Exchange Online in Office 365. However, when you run the Hybrid Configuration wizard, the wizard doesn't complete successfully. You receive a **System.Management.Automation.PipelineStoppedException: The pipeline has been stopped** error message. The full text of the message resembles the following:
+You want to set up a hybrid deployment between your on-premises Microsoft Exchange Server organization and Exchange Online in Microsoft 365. However, when you run the Hybrid Configuration wizard, the wizard doesn't complete successfully. You receive a **System.Management.Automation.PipelineStoppedException: The pipeline has been stopped** error message. The full text of the message resembles the following:
 
 > ERROR:Updating hybrid configuration failed with error 'System.Management.Automation.PipelineStoppedException: The pipeline has been stopped.  
 at System.Management.Automation.MshCommandRuntime.WriteProgress(ProgressRecord progressRecord)  

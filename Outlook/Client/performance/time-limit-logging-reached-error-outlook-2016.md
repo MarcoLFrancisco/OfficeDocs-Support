@@ -1,8 +1,8 @@
 ---
 title: The time limit for logging on was reached error in Outlook
 description: Describes an issue in which Outlook 2016 displays a (The time limit for logging on was reached while waiting for system resources) error message. Provides several workarounds.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -13,7 +13,7 @@ ms.custom:
 ms.reviewer: tasitae, shabbirh, sfellman, gbratton, almah
 appliesto: 
   - Outlook 2016
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
   - Outlook 2019
 search.appverid: MET150
 ms.date: 3/31/2022

@@ -1,8 +1,8 @@
 ---
 title: Something went wrong 30016-4 error
 description: Describes an issue that occurs when you try to remove Microsoft 365 Apps for enterprise from your computer. This triggers a 30016-4 error. A resolution is provided.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -30,4 +30,4 @@ This issue occurs if the %temp% drive is mapped to a drive other than %ProgramFi
 
 ## Resolution
 
-To fix this issue, completely remove Office from the computer. For the easiest way to do this, follow the guidance at [Uninstall Office 2013, Office 2016, or Office 365 from a PC](https://support.office.com/article/uninstall-office-2013-office-2016-or-office-365-from-a-pc-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8?ui=en-us&rs=en-us&ad=us).
+To fix this issue, completely remove Office from the computer. For the easiest way to do this, follow the guidance at [Uninstall Office from a PC](https://support.microsoft.com/office/uninstall-office-from-a-pc-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8).

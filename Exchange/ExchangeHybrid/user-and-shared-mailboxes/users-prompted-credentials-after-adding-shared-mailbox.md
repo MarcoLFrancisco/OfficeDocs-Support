@@ -1,8 +1,8 @@
 ---
 title: Users prompted for credentials after adding a shared mailbox
 description: Describes a scenario in which users are prompted for credentials in Outlook after they add a shared mailbox as a second Exchange email account in their existing Outlook profile.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: 
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: ernelso, jmartin
+ms.reviewer: ernelso, jmartin, v-six
 appliesto: 
   - Exchange Online
   - Exchange Server 2016 Enterprise Edition
@@ -30,7 +30,7 @@ _Original KB number:_ &nbsp; 3184064
 
 Consider the following scenario:
 
-- You have a hybrid deployment of on-premises Microsoft Exchange Server and Microsoft Exchange Online in Office 365.
+- You have a hybrid deployment of on-premises Microsoft Exchange Server and Microsoft Exchange Online in Microsoft 365.
 - You configured legacy on-premises public folders for a hybrid deployment.
 - You create a shared mailbox that's located in Exchange Online.
 - You assign Full Access permissions to one or more users.

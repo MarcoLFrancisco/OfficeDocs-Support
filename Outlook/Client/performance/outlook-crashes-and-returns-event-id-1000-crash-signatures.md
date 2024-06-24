@@ -1,8 +1,8 @@
 ---
 title: Crashes with event ID 1000 crash signatures
 description: Discusses an issue that causes Outlook to crash and returns event ID 1000 crash signatures after you add RSS feeds. Provides a workaround.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -14,7 +14,7 @@ ms.reviewer: tasitae
 appliesto: 
   - Outlook 2019
   - Outlook 2016
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
 search.appverid: MET150
 ms.date: 3/31/2022
 ---

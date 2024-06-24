@@ -1,13 +1,13 @@
 ---
 title: ActiveSync clients can't connect
 description: Fixes an issue in which Exchange ActiveSync clients can't connect or they experience delays when synchronizing in an Exchange Server environment.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
 localization_priority: Normal
-ms.reviewer: balinger, christys, wsvexse, v-zht, v-lmengy, Bilong, paololin
+ms.reviewer: balinger, christys, wsvexse, v-zht, v-lmengy, Bilong, paololin, v-six
 ms.custom: 
   - Exchange Server
   - CSSTroubleshoot
@@ -39,7 +39,7 @@ This is a known issue that occurs when Exchange ActiveSync Ping commands become 
 
 ## Workaround
 
-For Exchange Server 2013, to work around this issue, periodically cycle the Exchange ActiveSync application pool for all the servers to release the stranded commands. For more information about how to configure an application pool to automatically recycle at regular intervals, see the [Recycling Settings for an Application Pool \<recycling>](/iis/configuration/system.applicationhost/applicationpools/add/recycling/) topic on the Microsoft Docs website.
+For Exchange Server 2013, to work around this issue, periodically cycle the Exchange ActiveSync application pool for all the servers to release the stranded commands. For more information about how to configure an application pool to automatically recycle at regular intervals, see [Recycling Settings for an Application Pool \<recycling>](/iis/configuration/system.applicationhost/applicationpools/add/recycling/).
 
 ## Resolution
 

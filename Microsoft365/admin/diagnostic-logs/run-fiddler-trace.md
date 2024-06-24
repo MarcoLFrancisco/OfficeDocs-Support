@@ -1,8 +1,8 @@
 ---
 title: How to run the Fiddler Trace after installing SaRA
 description: Describes how to install Microsoft Support and Recovery Assistant (SaRA) and run the Fiddler Trace.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
@@ -13,7 +13,7 @@ ms.custom:
   - SaRA-Assisted
 ms.reviewer: akit
 appliesto: 
-  - Office 365
+  - Microsoft 365
 search.appverid: 
   - MET150
 ms.date: 3/31/2022
@@ -48,7 +48,7 @@ To install and run the Fiddler Trace scenario in the Microsoft Support and Recov
 
 6. Enter the passcode provided by Microsoft Support in the box, and then select **Next**.
 
-   :::image type="content" source="media/run-fiddler-trace/input-passcode.png" alt-text="Enter the passcode in the Microsoft Support and Recovery Assistant for Office 365 page." border="false":::
+   :::image type="content" source="media/run-fiddler-trace/input-passcode.png" alt-text="Enter the passcode in the Microsoft Support and Recovery Assistant for Microsoft 365 page." border="false":::
 
 7. In the **Security Warning** window, select **Yes** and then select **Next**.
 
@@ -69,7 +69,7 @@ To install and run the Fiddler Trace scenario in the Microsoft Support and Recov
 
     :::image type="content" source="media/run-fiddler-trace/secure-network.png" alt-text="Enter a password to secure the network capture." border="false":::
 
-11. If you are satisfied with the information that the Recovery Assistant has collected, select **Next**. If you want to discard the information and repeat this procedure to collect new information, select **Start over**.
+11. If you're satisfied with the information that the Recovery Assistant has collected, select **Next**. If you want to discard the information and repeat this procedure to collect new information, select **Start over**.
 
     :::image type="content" source="media/run-fiddler-trace/diagnostic-logs-collection-complete.png" alt-text="Logging collection by the Recovery Assistant is complete." border="false":::
 
@@ -81,7 +81,8 @@ To install and run the Fiddler Trace scenario in the Microsoft Support and Recov
     >
     > - Selecting the "Microsoft Support Site" link opens the file transfer workspace.
     > - Selecting the "here" link opens the folder that holds the recorded log files.
-    > - The log files in Windows are available as %localappdata%\Temp\\<random characters\>\Fiddler_*.saz.
+    > - The log files in Windows are available as %localappdata%\Temp\\<random characters\>\Fiddler_*.saz.  
+    > - If the user account that ran the scenario is different from the user account that's logged into Windows, you may receive an error when you select the "here" link. This error indicates that the folder isn't available, because %localappdata% is different in the two accounts. If you receive an error, look in the %localappdata%\Temp\\<random characters\>\ folder for the user account that ran the scenario.
 
 13. On the Microsoft Support Secure File Exchange website, select **Add files** to upload the log files.
 
